@@ -1,0 +1,4 @@
+.route__element {
+  list-style: none;
+  display: inline-flex;
+}
