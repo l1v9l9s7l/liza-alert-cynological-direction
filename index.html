@@ -1,25 +1,75 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Liza Alert</title>
-    <link rel="stylesheet" href="./pages/index.css" />
-  </head>
-  <body class="page">
-    <header class="header">
-      <a href="#" class="header__link">Учебная платформа</a>
-      <nav class="menu">
-        <div class="menu__courses">
-          <img class="menu__image" src="./images/icon_courses.svg" alt="" />
-          <a href="" class="menu__link">Курсы</a>
-        </div>
-        <div class="menu__profile">
-          <img class="menu__image" src="./images/icon_profile.svg" alt="" />
-          <a href="" class="menu__link">Профиль</a>
-        </div>
-      </nav>
-    </header>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Liza Alert</title>
+		<link rel="stylesheet" href="./pages/index.css" />
+	</head>
+	<body class="page page_type_flex">
+		<header class="header">
+			<a class="header__link" target="_blank" href="#"
+				>Учебная платформа</a
+			>
+			<nav class="menu">
+				<ul class="menu__list">
+					<li class="menu__list-item">
+						<a
+							id="courses-page-link"
+							class="menu__link"
+							href="./courses.html"
+						>
+							<img
+								class="menu__icon"
+								src="./images/logo_courses.svg"
+								alt="Курсы"
+							/>Курсы
+						</a>
+					</li>
+					<li class="menu__list-item">
+						<a class="menu__link" href="./account.html">
+							<img
+								class="menu__icon"
+								src="./images/logo_profile.svg"
+								alt="Профиль"
+							/>Профиль
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<main class="content">
+			<nav class="">
+				<ul class="route">
+					<li class="route__element">
+						<a class="route__link" href="">Курсы</a>
+						<img
+							class="route__arrow"
+							src="./images/arrow.svg"
+							alt=""
+						/>
+					</li>
+					<li class="route__element">
+						<a class="route__link" href="./account.html"
+							>Кинологическое&nbsp;направление</a
+						>
+						<img
+							class="route__arrow"
+							src="./images/arrow.svg"
+							alt=""
+						/>
+					</li>
+				</ul>
+			</nav>
+			<section class="content-container">
+				<div class="content-container__header">
+					<h1 class="content-container__title">Видео</h2>
+					<button class="content-container__action" type="button">
+						Посмотреть условия
+					</button>
+				</div>
+			</section>
+		</main>
+	</body>
 </html>
