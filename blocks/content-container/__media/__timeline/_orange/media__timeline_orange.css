@@ -1,0 +1,22 @@
+.media__timeline_orange {
+	background: linear-gradient(to right, rgb(255, 102, 0) 0%, rgb(255, 102, 0) 50%, rgb(147, 151, 163) 50%, rgb(147, 151, 163) 100%);
+	border-radius: 16px;
+	height: 6px;
+	outline: none;
+	transition: background 450ms ease-in;
+	-webkit-appearance: none;
+}
+
+.media__timeline_orange::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	width: 20px;
+	height: 20px;
+	background: rgba(255, 255, 255, 1);
+	border-radius: 50%;
+}
+
+.media__timeline_orange:hover {
+	opacity: .8;
+	cursor: pointer;
+	transition: .4s;
+}

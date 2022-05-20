@@ -1,0 +1,13 @@
+.route__link {
+  text-decoration: none;
+  color: black;
+  font-family: 'Golos', Arial, Helvetica, sans-serif;
+  display: flex;
+  cursor: pointer;
+  margin-right: 9px;
+  font-weight: 500;
+}
+
+.route__link:hover {
+  opacity: 0.8;
+}

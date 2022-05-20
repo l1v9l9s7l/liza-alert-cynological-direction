@@ -1,0 +1,13 @@
+.content-container__action {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-family: 'Golos', Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.content-container__action:hover {
+  opacity: 0.8;
+}
