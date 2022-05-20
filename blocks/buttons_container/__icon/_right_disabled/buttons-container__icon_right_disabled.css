@@ -1,0 +1,4 @@
+.buttons-container__icon_right_disabled {
+  background-image: url(../../../images/Arrow-right-disabled.svg);
+  padding-left: 12px;
+}
