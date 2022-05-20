@@ -1,0 +1,8 @@
+.button__fullscreen {
+    background-color: transparent;
+    border: none;
+	margin: 0;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+}

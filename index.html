@@ -1,75 +1,75 @@
 <!DOCTYPE html>
 <html lang="ru">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Liza Alert</title>
-		<link rel="stylesheet" href="./pages/index.css" />
-	</head>
-	<body class="page page_type_flex">
-		<header class="header">
-			<a class="header__link" target="_blank" href="#"
-				>Учебная платформа</a
-			>
-			<nav class="menu">
-				<ul class="menu__list">
-					<li class="menu__list-item">
-						<a
-							id="courses-page-link"
-							class="menu__link"
-							href="./courses.html"
-						>
-							<img
-								class="menu__icon"
-								src="./images/logo_courses.svg"
-								alt="Курсы"
-							/>Курсы
-						</a>
-					</li>
-					<li class="menu__list-item">
-						<a class="menu__link" href="./account.html">
-							<img
-								class="menu__icon"
-								src="./images/logo_profile.svg"
-								alt="Профиль"
-							/>Профиль
-						</a>
-					</li>
-				</ul>
-			</nav>
-		</header>
-		<main class="content">
-			<nav class="">
-				<ul class="route">
-					<li class="route__element">
-						<a class="route__link" href="">Курсы</a>
-						<img
-							class="route__arrow"
-							src="./images/arrow.svg"
-							alt=""
-						/>
-					</li>
-					<li class="route__element">
-						<a class="route__link" href="./account.html"
-							>Кинологическое&nbsp;направление</a
-						>
-						<img
-							class="route__arrow"
-							src="./images/arrow.svg"
-							alt=""
-						/>
-					</li>
-				</ul>
-			</nav>
-			<section class="content-container">
-				<div class="content-container__header">
-					<h1 class="content-container__title">Видео</h2>
-					<button class="content-container__action" type="button">
-						Посмотреть условия
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Liza Alert</title>
+	<link rel="stylesheet" href="./pages/index.css" />
+</head>
+
+<body class="page page_type_flex">
+	<header class="header">
+		<a class="header__link" target="_blank" href="#">Учебная платформа</a>
+		<nav class="menu">
+			<ul class="menu__list">
+				<li class="menu__list-item">
+					<a id="courses-page-link" class="menu__link" href="./courses.html">
+						<img class="menu__icon" src="./images/logo_courses.svg" alt="Курсы" />Курсы
+					</a>
+				</li>
+				<li class="menu__list-item">
+					<a class="menu__link" href="./account.html">
+						<img class="menu__icon" src="./images/logo_profile.svg" alt="Профиль" />Профиль
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<nav class="">
+		<ul class="route">
+			<li class="route__element">
+				<a class="route__link" href="">Курсы</a>
+				<img class="route__arrow" src="./images/arrow.svg" alt="" />
+			</li>
+			<li class="route__element">
+				<a class="route__link" href="./account.html">Кинологическое направление</a>
+				<img class="route__arrow" src="./images/arrow.svg" alt="" />
+			</li>
+			<li class="route__element">
+				<a class="route__link" href="./account.html">5. Работа «второго номера» совместно со следовым
+					кинологическим расчётом</a>
+				<img class="route__arrow" src="./images/arrow.svg" alt="" />
+			</li>
+			<li class="route__element">
+				<a class="route__link route__link_type_active" href="./account.html">Видео</a>
+			</li>
+		</ul>
+	</nav>
+	<main class="content">
+		<section class="content-container">
+			<div class="content-container__header">
+				<h2 class="content-container__title">Видео</h2>
+			</div>
+			<div class="content__media">
+				<video class="mediabox" src="#" poster="/images/video/ЛизаАлерт.jpg"></video>
+				<div class="media__player">
+					<button type="play" class="button__play">
+						<img class="play" src="./images/video/player/start.svg" alt="Кнопка Плей">
+					</button>
+					<input class="media__timeline media__timeline_orange" type="range">
+					<button type="volume" class="button__volume">
+						<img class="volume" src="./images/video/player/volume.svg" alt="Кнопка звука">
+					</button>
+					<input class="media__sound media__sound_orange" type="range">
+					<button type="fullscreen" class="button__fullscreen">
+						<img class="fullscreen" src="./images/video/player/fullscreen.svg" alt="Кнопка раскрытия">
 					</button>
 				</div>
-			</section>
-		</main>
-	</body>
+			</div>
+		</section>
+	</main>
+</body>
+
 </html>
