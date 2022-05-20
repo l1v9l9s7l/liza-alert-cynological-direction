@@ -20,6 +20,7 @@
 /*route*/
 @import url(../blocks/route/route.css);
 @import url(../blocks/route/__link/route__link.css);
+@import url(../blocks/route/__link/_type/route__link_type_active.css);
 @import url(../blocks/route/__element/route__element.css);
 @import url(../blocks/route/__arrow/route__arrow.css);
 
