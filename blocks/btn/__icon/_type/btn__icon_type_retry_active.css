@@ -1,0 +1,7 @@
+.btn__icon_type_retry_active {
+	width: 20px;
+	height: 20px;
+	padding: 0 2px;
+	background-image: url(../../../../images/Retry-active.svg);
+	margin-right: 8px;
+  }

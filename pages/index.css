@@ -34,3 +34,18 @@
 @import url(../blocks/content-container/__media/__volume/button__volume.css);
 @import url(../blocks/content-container/__media/mediabox/mediabox.css);
 @import url(../blocks/content-container/__media/content__media.css);
+/* buttons */
+@import url(../blocks/buttons_container/buttons_container.css);
+@import url(../blocks/btn/btn.css);
+@import url(../blocks/btn/_type/btn_type_default.css);
+@import url(../blocks/btn/_type/btn_type_active.css);
+@import url(../blocks/btn/_type/btn_type_disabled.css);
+@import url(../blocks/btn/_padding/btn_padding_s.css);
+@import url(../blocks/btn/_padding/btn_padding_m.css);
+@import url(../blocks/btn/_padding/btn_padding_l.css);
+@import url(../blocks/btn/__icon/btn__icon.css);
+@import url(../blocks/btn/__icon/_type/btn__icon_type_left.css);
+@import url(../blocks/btn/__icon/_type/btn__icon_type_right_active.css);
+@import url(../blocks/btn/__icon/_type/btn__icon_type_right_disabled.css);
+@import url(../blocks/btn/__icon/_type/btn__icon_type_retry_default.css);
+@import url(../blocks/btn/__icon/_type/btn__icon_type_retry_active.css);

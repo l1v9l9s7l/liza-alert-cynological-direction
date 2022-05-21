@@ -1,6 +1,7 @@
-.buttons-container__icon {
-  width: 16px;
-  height: 15px;
+.btn__icon {
+  width: 20px;
+  height: 20px;
+  padding: 0 4px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }

@@ -1,0 +1,9 @@
+.btn_type_default {
+	border: 1.2px solid rgba(230, 231, 235, 1);
+	color: #FF6600;
+	transition: border .4s linear;
+  }
+
+  .btn_type_default:hover {
+	border: 1.2px solid #FF6600;
+  }
