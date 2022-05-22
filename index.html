@@ -1,201 +1,75 @@
 <!DOCTYPE html>
 <html lang="ru">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Liza Alert</title>
-		<link rel="stylesheet" href="./pages/index.css" />
-		<link rel="stylesheet" href="stylee.css">
-	</head>
-	<body class="page page_type_flex">
-		<header class="header">
-			<a class="header__link" target="_blank" href="#"
-				>Учебная платформа</a
-			>
-			<nav class="menu">
-				<ul class="menu__list">
-					<li class="menu__list-item">
-						<a
-							id="courses-page-link"
-							class="menu__link"
-							href="./courses.html"
-						>
-							<img
-								class="menu__icon"
-								src="./images/logo_courses.svg"
-								alt="Курсы"
-							/>Курсы
-						</a>
-					</li>
-					<li class="menu__list-item">
-						<a class="menu__link" href="./account.html">
-							<img
-								class="menu__icon"
-								src="./images/logo_profile.svg"
-								alt="Профиль"
-							/>Профиль
-						</a>
-					</li>
-				</ul>
-			</nav>
-		</header>
-		<main class="content">
-			<nav class="">
-				<ul class="route">
-					<li class="route__element">
-						<a class="route__link" href="">Курсы</a>
-						<img
-							class="route__arrow"
-							src="./images/arrow.svg"
-							alt=""
-						/>
-					</li>
-					<li class="route__element">
-						<a class="route__link" href="./account.html"
-							>Кинологическое&nbsp;направление</a
-						>
-						<img
-							class="route__arrow"
-							src="./images/arrow.svg"
-							alt=""
-						/>
-					</li>
-				</ul>
-			</nav>
-			<section class="content-container">
-				<div class="content-container__header">
-					<h1 class="content-container__title">Видео</h2>
-					<button class="content-container__action" type="button">
-						Посмотреть условия
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Liza Alert</title>
+	<link rel="stylesheet" href="./pages/index.css" />
+</head>
+
+<body class="page page_type_flex">
+	<header class="header">
+		<a class="header__link" target="_blank" href="#">Учебная платформа</a>
+		<nav class="menu">
+			<ul class="menu__list">
+				<li class="menu__list-item">
+					<a id="courses-page-link" class="menu__link" href="./courses.html">
+						<img class="menu__icon" src="./images/logo_courses.svg" alt="Курсы" />Курсы
+					</a>
+				</li>
+				<li class="menu__list-item">
+					<a class="menu__link" href="./account.html">
+						<img class="menu__icon" src="./images/logo_profile.svg" alt="Профиль" />Профиль
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<nav class="">
+		<ul class="route">
+			<li class="route__element">
+				<a class="route__link" href="">Курсы</a>
+				<img class="route__arrow" src="./images/arrow.svg" alt="" />
+			</li>
+			<li class="route__element">
+				<a class="route__link" href="./account.html">Кинологическое направление</a>
+				<img class="route__arrow" src="./images/arrow.svg" alt="" />
+			</li>
+			<li class="route__element">
+				<a class="route__link" href="./account.html">5. Работа «второго номера» совместно со следовым
+					кинологическим расчётом</a>
+				<img class="route__arrow" src="./images/arrow.svg" alt="" />
+			</li>
+			<li class="route__element">
+				<a class="route__link route__link_type_active" href="./account.html">Видео</a>
+			</li>
+		</ul>
+	</nav>
+	<main class="content">
+		<section class="content-container">
+			<div class="content-container__header">
+				<h2 class="content-container__title">Видео</h2>
+			</div>
+			<div class="content__media">
+				<video class="mediabox" src="#" poster="/images/video/ЛизаАлерт.jpg"></video>
+				<div class="media__player">
+					<button type="play" class="button__play">
+						<img class="play" src="./images/video/player/start.svg" alt="Кнопка Плей">
+					</button>
+					<input class="media__timeline media__timeline_orange" type="range">
+					<button type="volume" class="button__volume">
+						<img class="volume" src="./images/video/player/volume.svg" alt="Кнопка звука">
+					</button>
+					<input class="media__sound media__sound_orange" type="range">
+					<button type="fullscreen" class="button__fullscreen">
+						<img class="fullscreen" src="./images/video/player/fullscreen.svg" alt="Кнопка раскрытия">
 					</button>
 				</div>
-				
-			</section>
-			<aside class="aside sidebar">
-				<div class="aside_cont">
-						  <div class="aside__form-head">
-							  <h2 class="aside__title">Содержание</h2>
-						  </div>
-						  <ul class="aside__filter-list">
-							  <li class="aside__filter-block">
-								  <a class="aside__filter-block-head">
-									  <p class="aside__filter-block-name">1. В каких случаях перспективно применение следовых кинологических расчётов</p>
-									  <div class="aside__accordion-item-toggler"></div>
-								  </a>
-								  <ul class="aside__filter-items">
-									  <li class="aside__filter-item">
-										  <div class="accordion__logo_active accordion__logo_lesson"></div>
-										  <p class="accordion__content">Урок</p>
-										</li>
-								  </ul>
-							  </li>
-							  <li class="aside__filter-block">
-								  <a class="aside__filter-block-head">
-									  <p class="aside__filter-block-name">2. Необходимые обеспечительные меры для успешного применения следовых (розыскных собак).</p>
-									  <div class="aside__accordion-item-toggler"></div>
-								  </a>
-								  <ul class="aside__filter-items">
-									  <li class="aside__filter-item">
-										  <div class="accordion__logo_active accordion__logo_lesson"></div>
-										  <p class="accordion__content">Урок</p>
-										</li>
-								  </ul>
-							  </li>
-								<li class="aside__filter-block">
-								  <a class="aside__filter-block-head">
-									  <p class="aside__filter-block-name">3. Особенности привлечения следовых расчётов на ПСР и особенности взаимодействия.</p>
-									  <div class="aside__accordion-item-toggler"></div>
-								  </a>
-								  <ul class="aside__filter-items">
-									  <li class="aside__filter-item">
-										  <div class="accordion__logo_active accordion__logo_lesson"></div>
-										  <p class="accordion__content">Урок</p>
-										</li>
-									  <li class="aside__filter-item">
-										  <div class="accordion__logo_active accordion__logo_webinar"></div>
-										  <p class="accordion__content">Вебинар</p>
-										</li>
-									  <li class="aside__filter-item">
-										  <div class="accordion__logo_active accordion__logo_lesson"></div>
-										  <p class="accordion__content">Урок</p>
-										</li>
-										<li class="aside__filter-item">
-										  <div class="accordion__logo_active accordion__logo_video"></div>
-										  <p class="accordion__content">Видео</p>
-										</li>
-										<li class="aside__filter-item">
-										  <div class="accordion__logo_active accordion__logo_test"></div>
-										  <p class="accordion__content">Тест</p>
-										</li>
-								  </ul>  
-							</li>
-								<li class="aside__filter-block">
-								  <a class="aside__filter-block-head">
-									  <p class="aside__filter-block-name">4. Корректная постановка задачи кинологу и особенности её исполнения</p>
-									  <div class="aside__accordion-item-toggler"></div>
-								  </a>
-								  <ul class="aside__filter-items">
-									  <li class="aside__filter-item">
-										  <div class="accordion__logo_active accordion__logo_webinar"></div>
-										  <p class="accordion__content">Вебинар</p>
-										</li>
-								  </ul>
-							  </li>
-								<li class="aside__filter-block">
-								  <a class="aside__filter-block-head">
-									  <p class="aside__filter-block-name">5. Работа «второго номера» совместно со следовым кинологическим расчётом</p>
-									  <div class="aside__accordion-item-toggler"></div>
-								  </a>
-								  <ul class="aside__filter-block">
-									  <li class="aside__filter-item">
-										  <div class="accordion__logo_active accordion__logo_lesson"></div>
-										  <p class="accordion__content">Дрессировка поисково-спасательных собак</p>
-										</li>
-									  <li class="aside__filter-item">
-										  <div class="accordion__logo_active accordion__logo_webinar"></div>
-										  <p class="accordion__content">Вебинар</p>
-										</li>
-									  <li class="aside__filter-item">
-										  <div class="accordion__logo_active accordion__logo_lesson"></div>
-										  <p class="accordion__content">Урок</p>
-										</li>
-									  <li class="aside__filter-item">
-										  <div class="accordion__logo_active accordion__logo_video"></div>
-										  <p class="accordion__content">Видео</p>
-									   </li>
-									  <li class="aside__filter-item">
-										  <div class="accordion__logo_test_avtive accordion__logo_test"></div>
-										  <p class="accordion__content">Тест</p>
-										</li>
-								  </ul>
-							  </li>
-								<li class="aside__filter-block">
-								  <a class="aside__filter-block-head">
-									  <p class="aside__filter-block-name">6. Оценка качества и особенности анализа результата проделанной следовым кинологическим расчётом работы</p>
-									  <div class="aside__accordion-item-toggler"></div>
-								  </a>
-								  <ul class="aside__filter-items">
-									  <li class="aside__filter-item">
-										  <div class="accordion__logo_lesson"></div>
-										  <p class="accordion__content">Урок</p>
-										</li>
-								  </ul>
-							  </li>
-								<li class="aside__filter-block">
-								  <a class="aside__filter-block-head">
-									  <p class="aside__filter-block-name">7. Особенности и пределы использования РПРС ом полученной в ходе применения специальной следовой собаки информации в целях успешного разрешения поисков</p>
-									  <div class="aside__accordion-item-toggler"></div>
-								  </a>
-								  <ul class="aside__filter-items">
-									  <li class="aside__filter-item">
-										  <div class="accordion__logo_lesson"></div>
-										  <p class="accordion__content">Урок</p>
-									   </li>
-								  </ul>
-							  </li>
-						  </ul>
-			  </aside>
-		</main>
-	</body>
+			</div>
+		</section>
+	</main>
+</body>
+
 </html>
