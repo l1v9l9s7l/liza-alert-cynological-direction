@@ -9,16 +9,20 @@
 </head>
 <body class="page">
 <header class="header">
-	<a href="#" class="header__link">Учебная платформа</a>
+	<a class="header__link" target="_blank" href="#">Учебная платформа</a>
 	<nav class="menu">
-		<div class="menu__courses">
-			<img class="menu__image" src="./images/icon_courses.svg" alt=""/>
-			<a href="" class="menu__link">Курсы</a>
-		</div>
-		<div class="menu__profile">
-			<img class="menu__image" src="./images/icon_profile.svg" alt=""/>
-			<a href="" class="menu__link">Профиль</a>
-		</div>
+		<ul class="menu__list">
+			<li class="menu__list-item">
+				<a id="courses-page-link" class="menu__link" href="./courses.html">
+					<img class="menu__icon" src="./images/logo_courses.svg" alt="Курсы"/>Курсы
+				</a>
+			</li>
+			<li class="menu__list-item">
+				<a class="menu__link" href="./account.html">
+					<img class="menu__icon" src="./images/logo_profile.svg" alt="Профиль"/>Профиль
+				</a>
+			</li>
+		</ul>
 	</nav>
 </header>
 <section class="content-container">
