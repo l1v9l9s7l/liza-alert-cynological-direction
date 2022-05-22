@@ -1,0 +1,10 @@
+.question__answer {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0 0 16px 0;
+}
+
+.question__answer:last-child {
+	padding: 0;
+}
