@@ -49,3 +49,6 @@
 @import url(../blocks/btn/__icon/_type/btn__icon_type_right_disabled.css);
 @import url(../blocks/btn/__icon/_type/btn__icon_type_retry_default.css);
 @import url(../blocks/btn/__icon/_type/btn__icon_type_retry_active.css);
+/* test preview */
+@import url(../blocks/content-container/__text/content-container__text.css);
+@import url(../blocks/content-container/__paragraph/content-container__paragraph.css);
