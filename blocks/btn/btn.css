@@ -8,8 +8,10 @@
 	background-color: #fff;
 	color: #000;
 	cursor: pointer;
-	padding: 12px 24px;
 	display: flex;
+	justify-content: center;
 	align-items: center;
 	box-sizing: border-box;
+	padding-top: 12px;
+	padding-bottom: 12px;
   }

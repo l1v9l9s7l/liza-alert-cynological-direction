@@ -1,0 +1,5 @@
+.btn__inside {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
