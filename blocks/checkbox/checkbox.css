@@ -4,8 +4,8 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
-	width: 20px;
-	height: 20px;
+	min-width: 20px;
+	min-height: 20px;
 	border: 0;
 	color: #212329;
 	padding: 0;
