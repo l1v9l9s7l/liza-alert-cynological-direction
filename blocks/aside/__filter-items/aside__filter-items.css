@@ -1,8 +1,13 @@
 .aside__filter-items {
-	max-height: 0px;
+	 /* max-height: 0px; 
 	margin: 0;
-	opacity: 0;
+	opacity: 1;
 	list-style: none;
 	overflow: hidden;
-	transition: max-height 0.2s;
+	transition: max-height 0.2s;  */
+	margin: 32px 0 0 0; 
+    display: flex;
+    flex-direction: column;  
+    opacity: 1; 
+    transition: 0.9s all ease;
 }
