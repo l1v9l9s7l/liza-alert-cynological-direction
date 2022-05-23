@@ -37,7 +37,7 @@
 
 /* sidebar */
 @import url(../blocks/sidebar/sidebar.css);
-@import url(../blocks/sidebar/sidebar-lessons/sidebar-lessons.css);
+@import url(../blocks/sidebar-lessons/sidebar-lessons.css);
 @import url(../blocks/sidebar/__block-title/sidebar__block-title.css);
 @import url(../blocks/sidebar/__block/sidebar__block.css);
 @import url(../blocks/sidebar/__container/sidebar__container.css);
