@@ -11,18 +11,18 @@
 	transition: .3s linear;
 }
 
-.sidebar__block-head:hover {
-	opacity: .8;
-}
-
 .sidebar__block-head:after {
     content: "";
     min-width: 24px;
     min-height: 24px;
-    background-image: url(../../../../images/sidebar_open-close.svg);
+    background-image: url(../../../images/sidebar_open-close.svg);
     background-repeat: no-repeat;
     background-position: center;
     align-self: flex-start;
     margin-left: 14.75px;
     transition: transform 0.3s ease-in-out;
   }
+
+  .sidebar__block-head:hover {
+	opacity: .8;
+}
