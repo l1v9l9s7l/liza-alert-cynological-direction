@@ -1,6 +1,7 @@
 .content-container__header {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 0;
 	align-items: center;
 }
