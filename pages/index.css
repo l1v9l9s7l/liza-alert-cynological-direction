@@ -35,7 +35,7 @@
 @import url(../blocks/content-container/__media/mediabox/mediabox.css);
 @import url(../blocks/content-container/__media/content__media.css);
 /* buttons */
-@import url(../blocks/buttons-container/buttons_container.css);
+@import url(../blocks/buttons-container/buttons-container.css);
 @import url(../blocks/btn/btn.css);
 @import url(../blocks/btn/__inside/btn__inside.css);
 @import url(../blocks/btn/__text/btn__text.css);
