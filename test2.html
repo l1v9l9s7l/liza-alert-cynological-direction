@@ -1,78 +1,57 @@
 <!DOCTYPE html>
 <html lang="ru">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Liza Alert</title>
-		<link rel="stylesheet" href="./pages/index.css" />
-	</head>
 
-	<body class="page page_type_course">
-		<header class="header">
-			<a class="header__link" target="_blank" href="#"
-				>Учебная платформа</a
-			>
-			<nav class="menu">
-				<ul class="menu__list">
-					<li class="menu__list-item">
-						<a
-							id="courses-page-link"
-							class="menu__link"
-							href="./courses.html"
-						>
-							<img
-								class="menu__icon"
-								src="./images/logo_courses.svg"
-								alt="Курсы"
-							/>Курсы
-						</a>
-					</li>
-					<li class="menu__list-item">
-						<a class="menu__link" href="./account.html">
-							<img
-								class="menu__icon"
-								src="./images/logo_profile.svg"
-								alt="Профиль"
-							/>Профиль
-						</a>
-					</li>
-				</ul>
-			</nav>
-		</header>
-		<nav class="route">
-			<ul class="route__list">
-				<li class="route__element">
-					<a class="route__link" href="">Курсы</a>
-					<img class="route__arrow" src="./images/arrow.svg" alt="" />
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Liza Alert</title>
+	<link rel="stylesheet" href="./pages/index.css" />
+</head>
+
+<body class="page page_type_course">
+	<header class="header">
+		<a class="header__link" target="_blank" href="#">Учебная платформа</a>
+		<nav class="menu">
+			<ul class="menu__list">
+				<li class="menu__list-item">
+					<a id="courses-page-link" class="menu__link" href="./courses.html">
+						<img class="menu__icon" src="./images/logo_courses.svg" alt="Курсы" />Курсы
+					</a>
 				</li>
-				<li class="route__element">
-					<a class="route__link" href="./account.html"
-						>Кинологическое направление</a
-					>
-					<img class="route__arrow" src="./images/arrow.svg" alt="" />
-				</li>
-				<li class="route__element">
-					<a class="route__link" href="./account.html"
-						>5. Работа «второго номера» совместно со следовым
-						кинологическим расчётом</a
-					>
-					<img class="route__arrow" src="./images/arrow.svg" alt="" />
-				</li>
-				<li class="route__element">
-					<a
-						class="route__link route__link_type_active"
-						href="./account.html"
-						>Тест</a
-					>
+				<li class="menu__list-item">
+					<a class="menu__link" href="./account.html">
+						<img class="menu__icon" src="./images/logo_profile.svg" alt="Профиль" />Профиль
+					</a>
 				</li>
 			</ul>
 		</nav>
-		<main class="content">
-			<section class="content-container">
-				<div class="content-container__header">
-					<h2 class="content-container__title">Тест</h2>
-				</div>
+	</header>
+	<nav class="route">
+		<ul class="route__list">
+			<li class="route__element">
+				<a class="route__link" href="">Курсы</a>
+				<img class="route__arrow" src="./images/arrow.svg" alt="" />
+			</li>
+			<li class="route__element">
+				<a class="route__link" href="./account.html">Кинологическое направление</a>
+				<img class="route__arrow" src="./images/arrow.svg" alt="" />
+			</li>
+			<li class="route__element">
+				<a class="route__link" href="./account.html">5. Работа «второго номера» совместно со следовым
+					кинологическим расчётом</a>
+				<img class="route__arrow" src="./images/arrow.svg" alt="" />
+			</li>
+			<li class="route__element">
+				<a class="route__link route__link_type_active" href="./account.html">Тест</a>
+			</li>
+		</ul>
+	</nav>
+	<main class="content">
+		<section class="content-container">
+			<div class="content-container__header">
+				<h2 class="content-container__title">Тест</h2>
+			</div>
 			</div>
 			<p class="content-container__text content-container__paragraph">Что мы узнали об особенностях привлечения
 				следовых расчётов на ПСР и особенностях взаимодействия между участниками ППС
@@ -102,9 +81,13 @@
 					</li>
 				</ul>
 			</div>
-			</section>
+			<button class="btn btn_size_m btn_type_active" type="button" arial-label="Начать тест" title="Начать тест">
+				<p class="btn__text">Начать тест</p>
+			</button>
+		</section>
 
-			</section>
-		</main>
-	</body>
+		</section>
+	</main>
+</body>
+
 </html>

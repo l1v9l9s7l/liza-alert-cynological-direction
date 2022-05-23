@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Liza Alert</title>
+	<link rel="stylesheet" href="./pages/buttons.css" />
+</head>
+
+<body class="page page_type_course">
+	<header class="header">
+		<a class="header__link" target="_blank" href="#">Учебная платформа</a>
+		<nav class="menu">
+			<ul class="menu__list">
+				<li class="menu__list-item">
+					<a id="courses-page-link" class="menu__link" href="./courses.html">
+						<img class="menu__icon" src="./images/logo_courses.svg" alt="Курсы" />Курсы
+					</a>
+				</li>
+				<li class="menu__list-item">
+					<a class="menu__link" href="./account.html">
+						<img class="menu__icon" src="./images/logo_profile.svg" alt="Профиль" />Профиль
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<nav class="route">
+		<ul class="route__list">
+			<li class="route__element">
+				<a class="route__link" href="">Курсы</a>
+				<img class="route__arrow" src="./images/arrow.svg" alt="" />
+			</li>
+			<li class="route__element">
+				<a class="route__link" href="./account.html">Кинологическое направление</a>
+				<img class="route__arrow" src="./images/arrow.svg" alt="" />
+			</li>
+			<li class="route__element">
+				<a class="route__link" href="./account.html">5. Работа «второго номера» совместно со следовым
+					кинологическим расчётом</a>
+				<img class="route__arrow" src="./images/arrow.svg" alt="" />
+			</li>
+			<li class="route__element">
+				<a class="route__link route__link_type_active" href="./account.html">Видео</a>
+			</li>
+		</ul>
+	</nav>
+	<main class="content">
+		<section class="content-container">
+			<div class="content-container__header">
+				<h2 class="content-container__title">Видео</h2>
+			</div>
+			<div class="media">
+				<video class="media__mediabox" src="#" poster="./images/video/ЛизаАлерт.jpg"></video>
+				<div class="media__player">
+					<button type="play" class="media__play-button">
+						<img class="media__play" src="./images/video/player/start.svg" alt="Кнопка Плей" />
+					</button>
+					<input class="media__timeline media__timeline_type_orange" type="range" />
+					<button type="volume" class="media__volume-button">
+						<img class="media__volume" src="./images/video/player/volume.svg" alt="Кнопка звука" />
+					</button>
+					<input class="media__sound media__sound_orange" type="range" />
+					<button type="fullscreen" class="media__fullscreen-button">
+						<img class="media__fullscreen" src="./images/video/player/fullscreen.svg"
+							alt="Кнопка раскрытия" />
+					</button>
+				</div>
+			</div>
+		</section>
+		<!-- Контейнер с кнопками -->
+		<section class="buttons-container">
+			<button class="btn btn_size_m btn_type_default" type="button" arial-label="Назад" title="Назад">
+				<img class="btn__icon" src="./images/buttons/Arrow-left.svg" alt="стрелка влево">
+				<p class="btn__text">Назад</p>
+			</button>
+
+			<button class="btn btn_size_m btn_type_active" type="button" arial-label="Далее" title="Далее">
+				<p class="btn__text">Далее</p>
+				<img class="btn__icon" src="./images/buttons/Arrow-right-active.svg" alt="стрелка вправо">
+			</button>
+
+			<!-- TODO: Готовые кнопки
+
+			Кнопка Далее неактивная
+			<button class="btn btn_size_m btn_type_disabled" type="button" arial-label="Далее неактивная" title="Пройдите тест" disabled>
+				<p class="btn__text">Далее</p>
+				<img class="btn__icon" src="./images/buttons/Arrow-right-disabled.svg" alt="стрелка вправо">
+			</button>
+
+			Кнопка Начать тест активная
+			<button class="btn btn_size_m btn_type_active" type="button" arial-label="Начать тест" title="Начать тест">
+				<p class="btn__text">Начать тест</p>
+			</button>
+
+			Кнопка Показать результат неактивная
+			<button class="btn btn_size_l btn_type_disabled" type="button" arial-label="Показать результат" title="Пройдите тест" disabled>
+				<p class="btn__text">Показать результат</p>
+			</button>
+
+			Кнопка Показать результат активная
+			<button class="btn btn_size_l btn_type_active" type="button" arial-label="Показать результат" title="Показать результат">
+				<p class="btn__text">Показать результат</p>
+			</button>
+
+			Кнопка Пересдать
+			<button class="btn btn_size_s btn_type_default" type="button" arial-label="Пересдать" title="Пересдать">
+				<img class="btn__icon" src="./images/buttons/Retry-default.svg" alt="повторить">
+				<p class="btn__text">Пересдать</p>
+			</button>
+
+			Кнопка Пересдать активная
+			<button class="btn btn_size_s btn_type_active" type="button" arial-label="Назад" title="Назад">
+				<img class="btn__icon" src="./images/buttons/Retry-active.svg" alt="повторить">
+				<p class="btn__text">Пересдать</p>
+			</button> -->
+		</section>
+	</main>
+</body>
+
+</html>
