@@ -1,0 +1,18 @@
+.page_type_course {
+  display: grid;
+	grid-template-columns: 36px minmax(min-content, 75%) minmax(min-content, calc(25% - 48px)) 36px;
+	grid-template-areas:
+		"header header header header"
+    "route route route route"
+		". content content aside "
+		". . buttons .";
+	box-sizing: border-box;
+	max-width: 1440px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	padding-bottom: 24px;
+	column-gap: 24px;
+	background-color: #fcfcfc;
+	color: #212329;
+}
