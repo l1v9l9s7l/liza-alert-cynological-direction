@@ -1,0 +1,19 @@
+.sidebar__checkbox-options {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.sidebar__checkbox-options:checked ~ .sidebar__checkbox-pseudo {
+	background-image: url(../../../images/checkbox-checked.svg);
+}
+
+.sidebar__checkbox-options:checked ~ .sidebar__checkbox-label {
+	color: #f06000;
+}

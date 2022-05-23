@@ -1,0 +1,8 @@
+.sidebar__item {
+	display: flex;
+	box-sizing: content-box;
+}
+
+.sidebar__item:not(:last-child) {
+	margin-bottom: 16px;
+}

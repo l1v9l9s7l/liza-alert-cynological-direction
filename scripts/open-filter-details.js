@@ -1,13 +1,13 @@
-const filterBlockHead = document.querySelectorAll(".aside__filter-block-head");
-const checkedItems = document.querySelectorAll(".aside__checkbox-options");
-const checkedList = document.querySelector(".aside__checked-options-list");
-const checkedGroupItems = document.querySelectorAll(".aside__checkbox-options_group");
-const resetAllBtn = document.querySelector(".aside__reset-button");
+const filterBlockHead = document.querySelectorAll(".sidebar__block-head");
+const checkedItems = document.querySelectorAll(".sidebar__checkbox-options");
+const checkedList = document.querySelector(".sidebar__checked-options-list");
+const checkedGroupItems = document.querySelectorAll(".sidebar__checkbox-options_group");
+const resetAllBtn = document.querySelector(".sidebar__reset-button");
 
 filterBlockHead.forEach(item => {
 	item.addEventListener("click", function (evt) {
 		evt.stopPropagation();
-		item.parentNode.classList.toggle("aside__filter-block_active");
+		item.parentNode.classList.toggle("sidebar__block_active");
 	});
 });
 
@@ -30,7 +30,7 @@ resetAllBtn.addEventListener("click", () => {
 	while (checkedList.firstChild) {
 		checkedList.removeChild(checkedList.firstChild);
 	}
-	resetAllBtn.classList.remove("aside__reset-button_active");
+	resetAllBtn.classList.remove("sidebar__reset-button_active");
 });
 
 function createCheckedItem(evt) {
@@ -38,17 +38,15 @@ function createCheckedItem(evt) {
 		".checked-item-template"
 	).content;
 	const checkedItem = checkedItemTemplate
-		.querySelector(".aside__checked-item")
+		.querySelector(".sidebar__checked-item")
 		.cloneNode(true);
-	const deselectButton = checkedItem.querySelector(".aside__deselect-button");
-	const checkedName = checkedItem.querySelector(
-		".aside__name-checked-option"
-	);
-	const itemCollection = checkedList.querySelectorAll(".aside__checked-item");
+	const deselectButton = checkedItem.querySelector(".sidebar__deselect-button");
+	const checkedName = checkedItem.querySelector(".sidebar__name-checked-option");
+	const itemCollection = checkedList.querySelectorAll(".sidebar__checked-item");
 	checkedName.textContent = evt.value;
 
 	if (evt.checked == true) {
-		resetAllBtn.classList.add("aside__reset-button_active");
+		resetAllBtn.classList.add("sidebar__reset-button_active");
 		if (evt.value == "Активный") {
 			checkedGroupItems.forEach(item => (item.checked = false));
 			evt.checked = true;
@@ -90,7 +88,7 @@ function createCheckedItem(evt) {
 			}
 		}
 		if (checkedList.children.length === 0) {
-			resetAllBtn.classList.remove("aside__reset-button_active");
+			resetAllBtn.classList.remove("sidebar__reset-button_active");
 		}
 	}
 
@@ -98,7 +96,7 @@ function createCheckedItem(evt) {
 		deleteCheckedItem(checkedItem);
 		evt.checked = false;
 		if (checkedList.children.length === 0) {
-			resetAllBtn.classList.remove("aside__reset-button_active");
+			resetAllBtn.classList.remove("sidebar__reset-button_active");
 		}
 		showCard();
 	});
