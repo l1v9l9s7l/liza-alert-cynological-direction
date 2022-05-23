@@ -1,0 +1,4 @@
+.radio_result_failed-ignore[type="radio"]:disabled {
+	background-image: url('../../../images/checkbox/cros_disabled_icon.svg');
+	background-size: auto;
+}

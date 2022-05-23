@@ -2,6 +2,7 @@
 @import url(../vendors/fonts/fonts.css);
 /*page*/
 @import url(../blocks/page/page.css);
+@import url(../blocks/page/_type/page_type_course.css);
 /*header*/
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__link/header__link.css);
@@ -19,21 +20,22 @@
 @import url(../blocks/content-container/__action/content-container__action.css);
 /*route*/
 @import url(../blocks/route/route.css);
+@import url(../blocks/route/__list/route__list.css);
 @import url(../blocks/route/__link/route__link.css);
 @import url(../blocks/route/__link/_type/route__link_type_active.css);
 @import url(../blocks/route/__element/route__element.css);
 @import url(../blocks/route/__arrow/route__arrow.css);
-/* video */
-@import url(../blocks/content-container/__media/__fullscreen/button__fullscreen.css);
-@import url(../blocks/content-container/__media/__play/button__play.css);
-@import url(../blocks/content-container/__media/__player/media__player.css);
-@import url(../blocks/content-container/__media/__sound/media__sound.css);
-@import url(../blocks/content-container/__media/__sound/_orange/media__sound_orange.css);
-@import url(../blocks/content-container/__media/__timeline/media__timeline.css);
-@import url(../blocks/content-container/__media/__timeline/_orange/media__timeline_orange.css);
-@import url(../blocks/content-container/__media/__volume/button__volume.css);
-@import url(../blocks/content-container/__media/mediabox/mediabox.css);
-@import url(../blocks/content-container/__media/content__media.css);
+/*media*/
+@import url(../blocks/media/media.css);
+@import url(../blocks/media/__mediabox/media__mediabox.css);
+@import url(../blocks/media/__player/media__player.css);
+@import url(../blocks/media/__play-button/media__play-button.css);
+@import url(../blocks/media/__timeline/media__timeline.css);
+@import url(../blocks/media/__timeline/_type/media__timeline_type_orange.css);
+@import url(../blocks/media/__volume-button/media__volume-button.css);
+@import url(../blocks/media/__sound/media__sound.css);
+@import url(../blocks/media/__sound/_type/media__sound_type_orange.css);
+@import url(../blocks/media/__fullscreen/media__fullscreen-button.css);
 /* buttons */
 @import url(../blocks/buttons-container/buttons-container.css);
 @import url(../blocks/btn/btn.css);
