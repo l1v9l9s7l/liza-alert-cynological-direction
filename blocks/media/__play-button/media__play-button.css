@@ -5,4 +5,5 @@
     height: 20px;
     border: none;
     background-color: transparent;
+    align-self: baseline;
 }

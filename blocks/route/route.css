@@ -3,4 +3,5 @@
 	display: flex;
   padding: 24px 0 32px 60px;
   margin: 0;
+  grid-area: route;
 }
