@@ -1,0 +1,9 @@
+.media__mediabox {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	max-width: 808px;
+	max-height: 456px;
+	border-radius: 8px;
+	box-sizing: border-box;
+}
