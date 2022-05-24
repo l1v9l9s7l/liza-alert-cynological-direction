@@ -1,5 +1,3 @@
 .route__arrow {
-  max-height: 16px;
-  max-width: 7px;
-  margin: auto 9px auto 0;
+  margin-right: 9px;
 }

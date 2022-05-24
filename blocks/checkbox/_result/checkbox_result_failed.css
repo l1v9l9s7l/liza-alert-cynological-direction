@@ -1,4 +1,0 @@
-.checkbox_result_failed[type="checkbox"]:disabled {
-	background-image: url('../../../images/checkbox/false_result_checked_icon.svg');
-	background-size: auto;
-}
