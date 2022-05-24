@@ -1,4 +1,3 @@
 .content {
-  padding: 0 ;
-  grid-area: content;
+  padding: 0 60px 0 60px;
 }

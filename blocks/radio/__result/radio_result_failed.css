@@ -1,4 +1,0 @@
-.radio_result_failed[type="radio"]:disabled {
-	background-image: url('../../../images/checkbox/false_result_checked_icon.svg');
-	background-size: auto;
-}
