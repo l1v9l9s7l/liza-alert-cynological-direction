@@ -1,11 +1,11 @@
 .page_type_course {
   display: grid;
-	grid-template-columns: 36px minmax(min-content, 75%) minmax(min-content, calc(25% - 48px)) 36px;
+	grid-template-columns: 36px minmax(min-content, 60%) minmax(min-content, calc(40% - 48px)) 36px;
 	grid-template-areas:
 		"header header header header"
     "route route route route"
-		". content content aside "
-		". . buttons .";
+		". content aside ."
+		". . aside .";
 	box-sizing: border-box;
 	max-width: 1440px;
 	width: 100%;

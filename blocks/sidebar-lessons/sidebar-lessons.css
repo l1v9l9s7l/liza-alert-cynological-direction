@@ -1,0 +1,4 @@
+.sidebar-lessons {
+    max-width: 424px;
+    grid-area: aside;
+}

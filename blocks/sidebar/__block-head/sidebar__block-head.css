@@ -1,0 +1,28 @@
+.sidebar__block-head {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0;
+	margin: 0;
+	cursor: pointer;
+	opacity: 1;
+	transition: .3s linear;
+}
+
+.sidebar__block-head:after {
+    content: "";
+    min-width: 24px;
+    min-height: 24px;
+    background-image: url(../../../images/sidebar_open-close.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    align-self: flex-start;
+    margin-left: 14.75px;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .sidebar__block-head:hover {
+	opacity: .8;
+}

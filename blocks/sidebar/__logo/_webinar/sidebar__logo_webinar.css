@@ -1,0 +1,9 @@
+.sidebar__logo_webinar {
+    background-image: url(../../../../images/video/logo-video.svg);
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-self: flex-start;
+  }
