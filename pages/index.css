@@ -25,6 +25,27 @@
 @import url(../blocks/route/__link/_type/route__link_type_active.css);
 @import url(../blocks/route/__element/route__element.css);
 @import url(../blocks/route/__arrow/route__arrow.css);
+/* sidebar */
+@import url(../blocks/sidebar/sidebar.css);
+@import url(../blocks/sidebar-lessons/sidebar-lessons.css);
+@import url(../blocks/sidebar/__block-title/sidebar__block-title.css);
+@import url(../blocks/sidebar/__block/sidebar__block.css);
+@import url(../blocks/sidebar/__container/sidebar__container.css);
+@import url(../blocks/sidebar/__item/sidebar__item.css);
+@import url(../blocks/sidebar/__items/sidebar__items.css);
+@import url(../blocks/sidebar/__list/sidebar__list.css);
+@import url(../blocks/sidebar/__head/sidebar__head.css);
+@import url(../blocks/sidebar/__title/sidebar__title.css);
+@import url(../blocks/sidebar/__items/_open/sidebar__items_open.css);
+@import url(../blocks/sidebar/__logo/_lesson/sidebar__logo_lesson.css);
+@import url(../blocks/sidebar/__logo/_test/sidebar__logo_test.css);
+@import url(../blocks/sidebar/__logo/_video/sidebar__logo_video.css);
+@import url(../blocks/sidebar/__logo/_webinar/sidebar__logo_webinar.css);
+@import url(../blocks/sidebar/__block/_active/sidebar__block_active.css);
+@import url(../blocks/sidebar/__content/sidebar__content.css);
+@import url(../blocks/sidebar/__logo/_active/sidebar__logo_active.css);
+@import url(../blocks/sidebar/__logo/_test-work/sidebar__logo_test-work.css);
+@import url(../blocks/sidebar/__block-head/sidebar__block-head.css);
 /*media*/
 @import url(../blocks/media/media.css);
 @import url(../blocks/media/__mediabox/media__mediabox.css);
@@ -36,3 +57,26 @@
 @import url(../blocks/media/__sound/media__sound.css);
 @import url(../blocks/media/__sound/_type/media__sound_type_orange.css);
 @import url(../blocks/media/__fullscreen/media__fullscreen-button.css);
+/* buttons */
+@import url(../blocks/buttons-container/buttons-container.css);
+@import url(../blocks/btn/btn.css);
+@import url(../blocks/btn/__inside/btn__inside.css);
+@import url(../blocks/btn/__text/btn__text.css);
+@import url(../blocks/btn/_type/btn_type_default.css);
+@import url(../blocks/btn/_type/btn_type_active.css);
+@import url(../blocks/btn/_type/btn_type_disabled.css);
+@import url(../blocks/btn/_size/btn_size_s.css);
+@import url(../blocks/btn/_size/btn_size_m.css);
+@import url(../blocks/btn/_size/btn_size_l.css);
+@import url(../blocks/btn/__icon/btn__icon.css);
+/* test preview */
+@import url(../blocks/content-container/__text/content-container__text.css);
+@import url(../blocks/content-container/__paragraph/content-container__paragraph.css);
+@import url(../blocks/quiz-results/quiz-results.css);
+@import url(../blocks/quiz-results/__list/quiz-results__list.css);
+@import url(../blocks/quiz-results/__list-item/quiz-results__list-item.css);
+@import url(../blocks/quiz-results/__list-item-conteiner/quiz-results__list-item-conteiner.css);
+@import url(../blocks/quiz-results/__icon/quiz-results__icon.css);
+/* about test */
+@import url(../blocks/quiz-results/_margin-bottom-zero/quiz-results_margin-bottom-zero.css);
+
