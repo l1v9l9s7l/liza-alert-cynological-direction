@@ -1,0 +1,12 @@
+.result__bad-percent {
+    /* font-family: 'Golos', 'Arial'; */
+    max-width: 680px;
+    max-height: 52px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 52px;
+    text-align: center;
+    color: #FF0000;
+    margin: 0 64px 24px;
+}

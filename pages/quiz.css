@@ -42,3 +42,7 @@
 @import url('../blocks/radio/__result/radio_result_failed.css');
 @import url('../blocks/radio/__result/radio_result_success-ignore.css');
 @import url('../blocks/radio/__result/radio_result_success.css');
+/* test__result */
+@import url('../blocks/test/__result/test__result.css');
+@import url('../blocks/result/__bad-percent/result__bad-percent.css');
+@import url('../blocks/result/__bad-resume/result__bad-resume.css');
