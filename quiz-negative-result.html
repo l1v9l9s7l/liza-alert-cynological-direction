@@ -40,7 +40,7 @@
 				расчётов?</h3>
 			<ul class="question__answers">
 				<li class="question__answer">
-					<input class="checkbox" id="help-people" type="checkbox"/>
+					<input class="checkbox checkbox_result_success" id="help-people" type="checkbox" disabled/>
 					<label class="question__answer-text" for="help-people">Оказание помощи гражданам, оказавшимся
 						в&nbsp;зонах
 						бедствия
@@ -49,7 +49,7 @@
 					</label>
 				</li>
 				<li class="question__answer">
-					<input class="checkbox" id="teach-dog" type="checkbox" />
+					<input class="checkbox checkbox_result_success-ignore" id="teach-dog" type="checkbox" disabled/>
 					<label class="question__answer-text" for="teach-dog">Обучение животного идти как
 						по&nbsp;горячему,
 						так и&nbsp;по&nbsp;остывшему
@@ -57,7 +57,7 @@
 					</label>
 				</li>
 				<li class="question__answer">
-					<input class="checkbox" id="dog-search" type="checkbox" />
+					<input class="checkbox checkbox_result_success" id="dog-search" type="checkbox" disabled/>
 					<label class="question__answer-text" for="dog-search">Поиск тел и&nbsp;их&nbsp;остатков
 						с&nbsp;применением
 						специально
@@ -70,22 +70,24 @@
 			<h3 class="question__title">2. С какого возраста следует начинать дрессировку по&nbsp;курсу ПСС?</h3>
 			<ul class="question__answers">
 				<li class="question__answer question__answer_radio">
-					<input class="radio" id="six-month" type="radio" name="question-two" />
+					<input class="radio radio_result_failed" id="six-month" type="radio" name="question-two" disabled/>
 					<label class="question__answer-text" for="six-month">6 месяцев</label>
 				</li>
 				<li class="question__answer question__answer_radio">
-					<input class="radio" id="one-half-year" type="radio" name="question-two" />
+					<input class="radio radio_result_success-ignore" id="one-half-year" type="radio" name="question-two" disabled/>
 					<label class="question__answer-text" for="one-half-year">1–1,5&nbsp;года</label>
 				</li>
 				<li class="question__answer question__answer_radio">
-					<input class="radio" id="three-year" type="radio" name="question-two"/>
+					<input class="radio radio_result_failed-ignore" id="three-year" type="radio" name="question-two" disabled/>
 					<label class="question__answer-text" for="three-year">3&nbsp;года</label>
 				</li>
 			</ul>
 		</div>
 	</div>
-<!--	TODO: Добавить кнопку "Показать результат" -->
+	<!--	TODO: Добавить "Красный" блок -->
+	<!--	TODO: Добавить кнопку "Пересдать" -->
 </section>
+	<!--	TODO: Добавить кнопки "Назад" и "Далее" -->
 </body>
 
 </html>
