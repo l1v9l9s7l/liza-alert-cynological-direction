@@ -1,0 +1,11 @@
+.btn_type_active {
+	border: none;
+	background-color: #FF6600;
+	color: #FFF;
+	transition: background-color .4s linear;
+}
+
+.btn_type_active:hover {
+	background-color: #ff8833;
+}
+

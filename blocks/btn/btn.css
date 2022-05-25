@@ -1,0 +1,18 @@
+.btn {
+	font-size: 18px;
+	font-family: Golos, sans-serif;
+	line-height: 24px;
+	font-weight: 500;
+	border: 1px solid #000;
+	border-radius: 16px;
+	background-color: #fff;
+	color: #000;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	align-self: center;
+  }

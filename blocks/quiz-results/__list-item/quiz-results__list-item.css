@@ -1,0 +1,10 @@
+.quiz-results__list-item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 0 16px 0;
+}
+
+.quiz-results__list-item:last-child {
+	margin: 0;
+}

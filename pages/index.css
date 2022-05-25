@@ -57,3 +57,26 @@
 @import url(../blocks/media/__sound/media__sound.css);
 @import url(../blocks/media/__sound/_type/media__sound_type_orange.css);
 @import url(../blocks/media/__fullscreen/media__fullscreen-button.css);
+/* buttons */
+@import url(../blocks/buttons-container/buttons-container.css);
+@import url(../blocks/btn/btn.css);
+@import url(../blocks/btn/__inside/btn__inside.css);
+@import url(../blocks/btn/__text/btn__text.css);
+@import url(../blocks/btn/_type/btn_type_default.css);
+@import url(../blocks/btn/_type/btn_type_active.css);
+@import url(../blocks/btn/_type/btn_type_disabled.css);
+@import url(../blocks/btn/_size/btn_size_s.css);
+@import url(../blocks/btn/_size/btn_size_m.css);
+@import url(../blocks/btn/_size/btn_size_l.css);
+@import url(../blocks/btn/__icon/btn__icon.css);
+/* test preview */
+@import url(../blocks/content-container/__text/content-container__text.css);
+@import url(../blocks/content-container/__paragraph/content-container__paragraph.css);
+@import url(../blocks/quiz-results/quiz-results.css);
+@import url(../blocks/quiz-results/__list/quiz-results__list.css);
+@import url(../blocks/quiz-results/__list-item/quiz-results__list-item.css);
+@import url(../blocks/quiz-results/__list-item-conteiner/quiz-results__list-item-conteiner.css);
+@import url(../blocks/quiz-results/__icon/quiz-results__icon.css);
+/* about test */
+@import url(../blocks/quiz-results/_margin-bottom-zero/quiz-results_margin-bottom-zero.css);
+
