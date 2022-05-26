@@ -51,37 +51,67 @@
 		<section class="content-container">
 			<div class="content-container__header">
 				<h2 class="content-container__title">Тест</h2>
-				<button type="button" class="content-container__action">Вернуться к тесту</button>
+				<button class="content-container__action">
+					Посмотреть условия
+				</button>
 			</div>
+			
+			<div class="quiz">
+				<div class="question">
+					<h3 class="question__title">1. В&nbsp;каких случаях перспективно применение следовых кинологических
+						расчётов?</h3>
+					<ul class="question__answers">
+						<li class="question__answer">
+							<input class="checkbox" id="help-people" type="checkbox"/>
+							<label class="question__answer-text" for="help-people">Оказание помощи гражданам, оказавшимся
+								в&nbsp;зонах
+								бедствия
+								или пропавшим в&nbsp;безлюдной
+								местности
+							</label>
+						</li>
+						<li class="question__answer">
+							<input class="checkbox" id="teach-dog" type="checkbox" />
+							<label class="question__answer-text" for="teach-dog">Обучение животного идти как
+								по&nbsp;горячему,
+								так и&nbsp;по&nbsp;остывшему
+								следу
+							</label>
+						</li>
+						<li class="question__answer">
+							<input class="checkbox" id="dog-search" type="checkbox" />
+							<label class="question__answer-text" for="dog-search">Поиск тел и&nbsp;их&nbsp;остатков
+								с&nbsp;применением
+								специально
+								обученных собак
+							</label>
+						</li>
+					</ul>
+				</div>
+				<div class="question">
+					<h3 class="question__title">2. С какого возраста следует начинать дрессировку по&nbsp;курсу ПСС?</h3>
+					<ul class="question__answers">
+						<li class="question__answer question__answer_radio">
+							<input class="radio" id="six-month" type="radio" name="question-two" />
+							<label class="question__answer-text" for="six-month">6 месяцев</label>
+						</li>
+						<li class="question__answer question__answer_radio">
+							<input class="radio" id="one-half-year" type="radio" name="question-two" />
+							<label class="question__answer-text" for="one-half-year">1–1,5&nbsp;года</label>
+						</li>
+						<li class="question__answer question__answer_radio">
+							<input class="radio" id="three-year" type="radio" name="question-two"/>
+							<label class="question__answer-text" for="three-year">3&nbsp;года</label>
+						</li>
+					</ul>
+				</div>
 			</div>
-			<p class="content-container__text content-container__paragraph">Что мы узнали об особенностях привлечения
-				следовых расчётов на ПСР и особенностях взаимодействия между участниками ППС
-			</p>
-			<div class="quiz-results quiz-results_margin-bottom-zero">
-				<ul class="quiz-results__list">
-					<li class="quiz-results__list-item">
-						<div class="quiz-results__list-item-conteiner">
-							<img class="quiz-results__icon" src="./images/type-Check.svg">
-							<p class="content-container__text">Проходной балл:</p>
-						</div>
-						<p class="content-container__text">80%</p>
-					</li>
-					<li class="quiz-results__list-item">
-						<div class="quiz-results__list-item-conteiner">
-							<img class="quiz-results__icon" src="./images/Retry.svg">
-							<p class="content-container__text">Количество попыток:</p>
-						</div>
-						<p class="content-container__text">3</p>
-					</li>
-					<li class="quiz-results__list-item">
-						<div class="quiz-results__list-item-conteiner">
-							<img class="quiz-results__icon" src="./images/Time.svg">
-							<p class="content-container__text">Срок сдачи:</p>
-						</div>
-						<p class="content-container__text">22.02.2022 г. 16:20 (GMT+3)</p>
-					</li>
-				</ul>
-			</div>
+			<button class="btn btn_size_l btn_type_disabled" type="button" arial-label="Показать результат"
+			title="Пройдите тест" disabled>
+				<div class="btn__inside">
+					<p class="btn__text">Показать результат</p>
+				</div>
+			</button>
 		</section>
 		<section class="buttons-container">
 			<button class="btn btn_size_m btn_type_default" type="button" title="Назад">

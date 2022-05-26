@@ -138,7 +138,7 @@
 						<ul class="question__answers">
 							<li class="question__answer question__answer_radio">
 								<input
-									class="radio radio_result_success-ignore"
+									class="radio radio_result_failed"
 									id="six-month"
 									type="radio"
 									name="question-two"
@@ -152,7 +152,7 @@
 							</li>
 							<li class="question__answer question__answer_radio">
 								<input
-									class="radio radio_result_success"
+									class="radio radio_result_success-ignore"
 									id="one-half-year"
 									type="radio"
 									name="question-two"
@@ -166,7 +166,7 @@
 							</li>
 							<li class="question__answer question__answer_radio">
 								<input
-									class="radio radio_result_success-ignore"
+									class="radio radio_result_failed-ignore"
 									id="three-year"
 									type="radio"
 									name="question-two"
@@ -181,7 +181,7 @@
 						</ul>
 					</div>
 				</div>
-				<!--	TODO: Добавить "Зеленый" блок -->
+				<!--	TODO: Добавить "Красный" блок -->
 				<button class="btn btn_size_s btn_type_default" type="button" arial-label="Пересдать" title="Пересдать">
 					<div class="btn__inside">
 						<img class="btn__icon" src="./images/buttons/Retry-default.svg" alt="повторить">
@@ -190,18 +190,14 @@
 				</button>
 			</section>
 			<section class="buttons-container">
-				<button class="btn btn_size_m btn_type_default" type="button" arial-label="Назад" title="Назад">
-					<div class="btn__inside">
-						<img class="btn__icon" src="./images/buttons/Arrow-left.svg" alt="стрелка влево">
-						<p class="btn__text">Назад</p>
-					</div>
+				<button class="btn btn_size_m btn_type_default" type="button" title="Назад">
+					<img class="btn__icon" src="./images/buttons/Arrow-left.svg" alt="стрелка влево">
+					<p class="btn__text">Назад</p>
 				</button>
-
-				<button class="btn btn_size_m btn_type_active" type="button" arial-label="Далее" title="Далее">
-					<div class="btn__inside">
-						<p class="btn__text">Далее</p>
-						<img class="btn__icon" src="./images/buttons/Arrow-right-active.svg" alt="стрелка вправо">
-					</div>
+	
+				<button class="btn btn_size_m btn_type_active" type="button" title="Далее">
+					<p class="btn__text">Далее</p>
+					<img class="btn__icon" src="./images/buttons/Arrow-right-active.svg" alt="стрелка вправо">
 				</button>
 			</section>
 		</main>
