@@ -15,7 +15,6 @@
 
 .checkbox[type="checkbox"]:checked {
 	background-image: url('../../images/checkbox/checked_icon.svg');
-	color: #f06000;
 }
 
 .checkbox[type="checkbox"]:disabled {

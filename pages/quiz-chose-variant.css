@@ -30,8 +30,11 @@
 @import url('../blocks/question/__answer/question__answer.css');
 @import url('../blocks/question/__answers/question__answers.css');
 @import url('../blocks/question/__answer-text/question__answer-text.css');
-@import url('../blocks/question/__answer-text/_chose/question__answer-text_chose.css');
+@import url('../blocks/question/__answer-text/_select/question__answer-text_select_chose.css');
 @import url('../blocks/question/__answer-text/_pointer/question__answer-text_pointer.css');
+@import url('../blocks/question/__answer-text/_select/question__answer-text_select_chose.css');
+@import url('../blocks/question/__answer-text/_select/question__answer-text_select_failed.css');
+@import url('../blocks/question/__answer-text/_select/question__answer-text_select_success.css');
 /*checkbox*/
 @import url('../blocks/checkbox/checkbox.css');
 @import url('../blocks/checkbox/_result/checkbox_result_failed.css');

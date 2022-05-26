@@ -18,12 +18,12 @@ function highlightRadioLabel(event) {
     const label = document.querySelector('label[for=' + radioId + ']');
 
     if (radio.checked) {
-        label.classList.add('question__answer-text_chose');
+        label.classList.add('question__answer-text_select_chose');
     }
 
     const filterIds = radioGroup[radio.name].filter(element => element !== radio.id);
 
     filterIds.forEach(id => {
-        document.querySelector('label[for=' + id + ']').classList.remove('question__answer-text_chose');
+        document.querySelector('label[for=' + id + ']').classList.remove('question__answer-text_select_chose');
     });
 }
