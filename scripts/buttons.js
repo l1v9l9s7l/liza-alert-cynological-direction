@@ -7,7 +7,6 @@ const buttons = document.querySelectorAll('.btn');
 
 buttons.forEach(button => {
 	const url = route[button.id];
-	button.url = url;
 	button.addEventListener('click', (evt) => {
 		window.location.href = url;
 	});
