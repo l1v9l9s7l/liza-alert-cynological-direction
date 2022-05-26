@@ -60,7 +60,6 @@
 /* buttons */
 @import url(../blocks/buttons-container/buttons-container.css);
 @import url(../blocks/btn/btn.css);
-@import url(../blocks/btn/__inside/btn__inside.css);
 @import url(../blocks/btn/__text/btn__text.css);
 @import url(../blocks/btn/_type/btn_type_default.css);
 @import url(../blocks/btn/_type/btn_type_active.css);
@@ -79,4 +78,23 @@
 @import url(../blocks/quiz-results/__icon/quiz-results__icon.css);
 /* about test */
 @import url(../blocks/quiz-results/_margin-bottom-zero/quiz-results_margin-bottom-zero.css);
-
+/*quiz*/
+@import url('../blocks/quiz/quiz.css');
+/*question*/
+@import url('../blocks/question/question.css');
+@import url('../blocks/question/__title/question__title.css');
+@import url('../blocks/question/__answer/question__answer.css');
+@import url('../blocks/question/__answers/question__answers.css');
+@import url('../blocks/question/__answer-text/question__answer-text.css');
+/*checkbox*/
+@import url('../blocks/checkbox/checkbox.css');
+@import url('../blocks/checkbox/_result/checkbox_result_failed.css');
+@import url('../blocks/checkbox/_result/checkbox_result_failed-ignore.css');
+@import url('../blocks/checkbox/_result/checkbox_result_success.css');
+@import url('../blocks/checkbox/_result/checkbox_result_success-ignore.css');
+/*radio*/
+@import url('../blocks/radio/radio.css');
+@import url('../blocks/radio/__result/radio_result_failed-ignore.css');
+@import url('../blocks/radio/__result/radio_result_failed.css');
+@import url('../blocks/radio/__result/radio_result_success-ignore.css');
+@import url('../blocks/radio/__result/radio_result_success.css');

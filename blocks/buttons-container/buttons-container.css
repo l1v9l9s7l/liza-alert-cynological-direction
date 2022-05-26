@@ -6,4 +6,5 @@
   align-items: center;
   margin: 0;
   padding: 24px 32px;
+  grid-area: buttons;
 }

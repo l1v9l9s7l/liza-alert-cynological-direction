@@ -3,7 +3,7 @@
 	position: relative;
 	display: flex;
 	flex-direction: column;
-	max-width: 872px;
+	min-width: 872px;
 	border-radius: 16px;
 	margin: 0;
 	background-color: #fff;
