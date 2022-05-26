@@ -1,6 +1,5 @@
 .btn__text {
-	font-family: 'Golos';
-	font-style: normal;
+    font-family: 'Golos', Arial, Helvetica, sans-serif;
 	font-weight: 500;
 	font-size: 18px;
 	line-height: 24px;
