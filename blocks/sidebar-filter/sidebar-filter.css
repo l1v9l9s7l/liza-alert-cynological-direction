@@ -1,0 +1,30 @@
+.sidebar-filter {
+    grid-area: sidebar-left;
+	width: 100%;
+	height: max-content;
+    min-width: 295px;
+}
+
+@media (max-width: 1024px) {
+	.sidebar-filter{
+		grid-template-columns: repeat(2, auto);
+		grid-template-rows: minmax(min-content, 320px);
+		padding-top: 12px;
+		padding-bottom: 12px;
+		margin-top: 24px;
+		margin-bottom: 24px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.sidebar-filter {
+		grid-template-columns: repeat(2, auto);
+		grid-template-rows: minmax(min-content, 320px);
+		padding-top: 12px;
+		padding-bottom: 12px;
+		margin-top: 24px;
+		margin-bottom: 24px;
+		width: 100%;
+		max-width: 100%;
+	}
+}
