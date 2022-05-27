@@ -1,0 +1,16 @@
+.result__bad-resume {
+    /* font-family: 'Golos', 'Arial'; */
+    max-width: 680px;
+    max-height: 66px;
+    margin: 0 64px 0px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FF0000;
+}
+
+.result__bad-resume:last-of-type {
+    margin-top: 24px;
+
+}

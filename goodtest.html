@@ -181,27 +181,30 @@
 						</ul>
 					</div>
 				</div>
-				<!--	TODO: Добавить "Зеленый" блок -->
-				<button class="btn btn_size_s btn_type_default" type="button" arial-label="Пересдать" title="Пересдать">
-					<div class="btn__inside">
-						<img class="btn__icon" src="./images/buttons/Retry-default.svg" alt="повторить">
-						<p class="btn__text">Пересдать</p>
-					</div>
+				<div class="test-result test-result_good">
+					<h2 class="test-result__good-percent">83%</h2>
+					<p class="test-result__good-resume">Отличный результат!</p>
+					<p class="test-result__good-resume">Нажите «Далее» чтобы продолжить.</p>
+					<p class="test-result__good-resume">
+							Если считаете, что сможете лучше, нажмите «Пересдать». В случае</p>
+					<p class="test-result__good-resume">
+							если результат будет хуже, засчитается наивысший результат.
+					</p>
+				</div>
+				<button id="test_reset" class="btn btn_size_s btn_type_default" type="button" title="Пересдать">
+					<img class="btn__icon" src="./images/buttons/Retry-default.svg" alt="повторить">
+					<p class="btn__text">Пересдать</p>
 				</button>
 			</section>
 			<section class="buttons-container">
-				<button class="btn btn_size_m btn_type_default" type="button" arial-label="Назад" title="Назад">
-					<div class="btn__inside">
-						<img class="btn__icon" src="./images/buttons/Arrow-left.svg" alt="стрелка влево">
-						<p class="btn__text">Назад</p>
-					</div>
+				<button id="badgoodtest_back" class="btn btn_size_m btn_type_default" type="button" title="Назад">
+					<img class="btn__icon" src="./images/buttons/Arrow-left.svg" alt="стрелка влево">
+					<p class="btn__text">Назад</p>
 				</button>
-
-				<button class="btn btn_size_m btn_type_active" type="button" arial-label="Далее" title="Далее">
-					<div class="btn__inside">
-						<p class="btn__text">Далее</p>
-						<img class="btn__icon" src="./images/buttons/Arrow-right-active.svg" alt="стрелка вправо">
-					</div>
+	
+				<button id="goodtest_next" class="btn btn_size_m btn_type_active" type="button" title="Далее">
+					<p class="btn__text">Далее</p>
+					<img class="btn__icon" src="./images/buttons/Arrow-right-active.svg" alt="стрелка вправо">
 				</button>
 			</section>
 		</main>
@@ -324,5 +327,7 @@
 							</li>
 						</ul>
 			</aside>
+			<script src="./scripts/script.js"></script>
+			<script src="./scripts/buttons.js" defer></script>
 	</body>
 </html>
