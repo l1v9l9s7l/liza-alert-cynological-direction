@@ -11,6 +11,9 @@ const createCard = card => {
 	const cardTime = cardTemplateElement.querySelector("#time");
 	const cardButtonType = cardTemplateElement.querySelector(".card-list__button");
 	cardHeading.textContent = card.name;
+	if (cardHeading.textContent = "Кинологическое направление") {
+		cardButtonType.setAttribute("href", "../index.html");
+	}
 	cardImage.src = card.link;
 	cardImage.alt = card.name;
 	cardTier.textContent = card.tier;
