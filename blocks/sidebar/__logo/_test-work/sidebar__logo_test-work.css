@@ -1,7 +1,7 @@
 .sidebar__logo_test-work {
     background-image: url(../../../../images/video/logo-test-work.svg);
     margin-right: 10px;
-    width: 20px;
+    min-width: 20px;
     height: 20px;
     background-repeat: no-repeat;
     background-position: center;

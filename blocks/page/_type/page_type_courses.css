@@ -37,6 +37,7 @@
         ". content .";
       column-gap: 12px;
     }
+<<<<<<< HEAD
   }
   */
 
@@ -80,3 +81,6 @@
       column-gap: 12px;
     }
   }
+=======
+
+>>>>>>> feat/accordion-v2

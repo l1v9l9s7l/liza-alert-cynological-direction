@@ -50,7 +50,9 @@
 @import url(../blocks/sidebar/__content/sidebar__content.css);
 @import url(../blocks/sidebar/__logo/_active/sidebar__logo_active.css);
 @import url(../blocks/sidebar/__logo/_test-work/sidebar__logo_test-work.css);
+@import url(../blocks/sidebar/__logo/_video-work/sidebar__logo-video-work.css);
 @import url(../blocks/sidebar/__block-head/sidebar__block-head.css);
+@import url(../blocks/sidebar/__content/_theme/sidebar__content_theme_orange.css);
 /*media*/
 @import url(../blocks/media/media.css);
 @import url(../blocks/media/__mediabox/media__mediabox.css);
