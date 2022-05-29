@@ -84,7 +84,7 @@
 @import url(../blocks/quiz-results/__list-item-conteiner/quiz-results__list-item-conteiner.css);
 @import url(../blocks/quiz-results/__icon/quiz-results__icon.css);
 /* about test */
-@import url(../blocks/quiz-results/_margin-bottom-zero/quiz-results_margin-bottom-zero.css);
+@import url(../blocks/quiz-results/_margin-bottom-none/quiz-results_margin-bottom-none.css
 /*quiz*/
 @import url('../blocks/quiz/quiz.css');
 /*question*/
