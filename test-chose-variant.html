@@ -2,128 +2,94 @@
 <html lang="ru">
 
 <head>
-	<meta charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Liza Alert</title>
-	<link rel="stylesheet" href="./pages/index.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Лиза Алерт - Кинологическое направление</title>
+    <link rel="stylesheet" href="./pages/index.css" />
 </head>
 
 <body class="page page_type_course">
-	<header class="header">
-		<a class="header__link" target="_blank" href="#">Учебная платформа</a>
-		<nav class="menu">
-			<ul class="menu__list">
-				<li class="menu__list-item">
-					<a id="courses-page-link" class="menu__link" href="./courses.html">
-						<img class="menu__icon" src="./images/logo_courses.svg" alt="Курсы" />Курсы
-					</a>
-				</li>
-				<li class="menu__list-item">
-					<a class="menu__link" href="./account.html">
-						<img class="menu__icon" src="./images/logo_profile.svg" alt="Профиль" />Профиль
-					</a>
-				</li>
-			</ul>
-		</nav>
-	</header>
-	<nav class="route">
-		<ul class="route__list">
-			<li class="route__element">
-				<a class="route__link" href="">Курсы</a>
-				<img class="route__arrow" src="./images/arrow.svg" alt="" />
-			</li>
-			<li class="route__element">
-				<a class="route__link" href="./account.html">Кинологическое направление</a>
-				<img class="route__arrow" src="./images/arrow.svg" alt="" />
-			</li>
-			<li class="route__element">
-				<a class="route__link" href="./account.html">5. Работа «второго номера» совместно со следовым
+    <header class="header">
+        <a class="header__link" target="_blank" href="#">Учебная платформа</a>
+        <nav class="menu">
+            <ul class="menu__list">
+                <li class="menu__list-item">
+                    <a id="courses-page-link" class="menu__link" href="./courses.html">
+                        <img class="menu__icon" src="./images/logo_courses.svg" alt="Курсы" />Курсы
+                    </a>
+                </li>
+                <li class="menu__list-item">
+                    <a class="menu__link" href="./account.html">
+                        <img class="menu__icon" src="./images/logo_profile.svg" alt="Профиль" />Профиль
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <nav class="route">
+        <ul class="route__list">
+            <li class="route__element">
+                <a class="route__link" href="">Курсы</a>
+                <img class="route__arrow" src="./images/arrow.svg" alt="" />
+            </li>
+            <li class="route__element">
+                <a class="route__link" href="./account.html">Кинологическое направление</a>
+                <img class="route__arrow" src="./images/arrow.svg" alt="" />
+            </li>
+            <li class="route__element">
+                <a class="route__link" href="./account.html">5. Работа «второго номера» совместно со следовым
 					кинологическим расчётом</a>
-				<img class="route__arrow" src="./images/arrow.svg" alt="" />
-			</li>
-			<li class="route__element">
-				<a class="route__link route__link_type_active" href="./account.html">Тест</a>
-			</li>
-		</ul>
-	</nav>
-	<main class="content">
-		<section class="content-container">
-			<div class="content-container__header">
-				<h2 class="content-container__title">Тест</h2>
-				<butto<dn class="content-container__action">
-					Посмотреть условия
-				</button>
-			</div>
-				<div class="quiz">
-					<div class="question">
-						<h3 class="question__title">
-							1. В&nbsp;каких случаях перспективно применение следовых
-							кинологических расчётов?
-						</h3>
-						<ul class="question__answers">
-							<li class="question__answer">
-								<input
-									class="checkbox checkbox_result_success"
-									id="help-people"
-									type="checkbox"
-									checked
-								/>
-								<label
-									class="question__answer-text question__answer-text_select_chose question__answer-text_pointer"
-									for="help-people"
-									>Оказание помощи гражданам, оказавшимся
+                <img class="route__arrow" src="./images/arrow.svg" alt="" />
+            </li>
+            <li class="route__element">
+                <a class="route__link route__link_active" href="./account.html">Тест</a>
+            </li>
+        </ul>
+    </nav>
+    <main class="content">
+        <section class="content-container">
+            <div class="content-container__header">
+                <h1 class="content-container__title">Тест</h1>
+                <button class="content-container__action">
+                    Посмотреть условия
+                    </button>
+            </div>
+            <div class="quiz">
+                <div class="question">
+                    <h3 class="question__title">
+                        1. В&nbsp;каких случаях перспективно применение следовых кинологических расчётов?
+                    </h3>
+                    <ul class="question__answers">
+                        <li class="question__answer">
+                            <input class="checkbox checkbox_result_success" id="help-people" type="checkbox" checked />
+                            <label class="question__answer-text question__answer-text_select_chose question__answer-text_pointer" for="help-people">Оказание помощи гражданам, оказавшимся
 									в&nbsp;зонах бедствия или пропавшим
 									в&nbsp;безлюдной местности
 								</label>
-							</li>
-							<li class="question__answer">
-								<input
-									class="checkbox checkbox_result_success-ignore"
-									id="teach-dog"
-									type="checkbox"
-								/>
-								<label
-									class="question__answer-text question__answer-text_pointer"
-									for="teach-dog"
-									>Обучение животного идти как по&nbsp;горячему,
+                        </li>
+                        <li class="question__answer">
+                            <input class="checkbox checkbox_result_success-ignore" id="teach-dog" type="checkbox" />
+                            <label class="question__answer-text question__answer-text_pointer" for="teach-dog">Обучение животного идти как по&nbsp;горячему,
 									так и&nbsp;по&nbsp;остывшему следу
 								</label>
-							</li>
-							<li class="question__answer">
-								<input
-									class="checkbox checkbox_result_success"
-									id="dog-search"
-									type="checkbox"
-									checked
-								/>
-								<label
-									class="question__answer-text question__answer-text_select_chose question__answer-text_pointer"
-									for="dog-search"
-									>Поиск тел и&nbsp;их&nbsp;остатков
+                        </li>
+                        <li class="question__answer">
+                            <input class="checkbox checkbox_result_success" id="dog-search" type="checkbox" checked />
+                            <label class="question__answer-text question__answer-text_select_chose question__answer-text_pointer" for="dog-search">Поиск тел и&nbsp;их&nbsp;остатков
 									с&nbsp;применением специально обученных собак
 								</label>
-							</li>
-						</ul>
-					</div>
-					<div class="question">
-						<h3 class="question__title">
-							2. С какого возраста следует начинать дрессировку
-							по&nbsp;курсу ПСС?
-						</h3>
-						<ul class="question__answers">
-							<li class="question__answer question__answer_radio">
-								<input
-									class="radio radio_result_success-ignore"
-									id="six-month"
-									type="radio"
-									name="question-two"
-									checked
-								/>
-								<label
-									class="question__answer-text question__answer-text_pointer question__answer-text_select_chose"
-									for="six-month"
-									>6 месяцев</label
+                        </li>
+                    </ul>
+                </div>
+                <div class="question">
+                    <h3 class="question__title">
+                        2. С какого возраста следует начинать дрессировку по&nbsp;курсу ПСС?
+                    </h3>
+                    <ul class="question__answers">
+                        <li class="question__answer question__answer_radio">
+                            <input class="radio radio_result_success-ignore" id="six-month" type="radio" name="question-two" checked />
+                            <label class="question__answer-text question__answer-text_pointer question__answer-text_select_chose" for="six-month">6 месяцев</label
 								>
 							</li>
 							<li class="question__answer question__answer_radio">
@@ -190,7 +156,6 @@
 								</li>
 							</ul>
 						</li>
-
 						<li class="sidebar__block">
 							<a class="sidebar__block-head">
 								<h3 class="sidebar__block-title">2. Необходимые обеспечительные меры для успешного применения следовых (розыскных собак).</h3>
@@ -202,7 +167,6 @@
 								</li>
 							</ul>
 						</li>
-						
 						<li class="sidebar__block">
 							<a class="sidebar__block-head">
 								<h3 class="sidebar__block-title">3. Особенности привлечения следовых расчётов на ПСР и особенности взаимодействия.</h3>
@@ -229,7 +193,7 @@
 									<p class="sidebar__content">Тест</p>
 								</li>
 							</ul>  
-					</li>
+						</li>
 						<li class="sidebar__block">
 							<a class="sidebar__block-head">
 								<h3 class="sidebar__block-title">4. Корректная постановка задачи кинологу и особенности её исполнения</h3>
