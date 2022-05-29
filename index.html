@@ -1,249 +1,214 @@
 <!DOCTYPE html>
 <html lang="ru">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Лиза Алерт - Кинологическое направление</title>
-		<link rel="stylesheet" href="./pages/index.css" />
-	</head>
 
-	<body class="page page_type_course">
-		<header class="header">
-			<a class="header__link" target="_blank" href="#"
-				>Учебная платформа</a
-			>
-			<nav class="menu">
-				<ul class="menu__list">
-					<li class="menu__list-item">
-						<a
-							id="courses-page-link"
-							class="menu__link"
-							href="./courses.html"
-						>
-							<img
-								class="menu__icon"
-								src="./images/logo_courses.svg"
-								alt="Курсы"
-							/>Курсы
-						</a>
-					</li>
-					<li class="menu__list-item">
-						<a class="menu__link" href="./account.html">
-							<img
-								class="menu__icon"
-								src="./images/logo_profile.svg"
-								alt="Профиль"
-							/>Профиль
-						</a>
-					</li>
-				</ul>
-			</nav>
-		</header>
-		<nav class="route">
-			<ul class="route__list">
-				<li class="route__element">
-					<a class="route__link" href="">Курсы</a>
-					<img class="route__arrow" src="./images/arrow.svg" alt="" />
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Лиза Алерт - Кинологическое направление</title>
+	<link rel="stylesheet" href="./pages/index.css" />
+</head>
+
+<body class="page page_type_course">
+	<header class="header">
+		<a class="header__link" target="_blank" href="#">Учебная платформа</a>
+		<nav class="menu">
+			<ul class="menu__list">
+				<li class="menu__list-item">
+					<a id="courses-page-link" class="menu__link" href="./courses.html">
+						<img class="menu__icon" src="./images/logo_courses.svg" alt="Курсы" />Курсы
+					</a>
 				</li>
-				<li class="route__element">
-					<a class="route__link" href="./account.html"
-						>Кинологическое направление</a
-					>
-					<img class="route__arrow" src="./images/arrow.svg" alt="" />
-				</li>
-				<li class="route__element">
-					<a class="route__link" href="./account.html"
-						>5. Работа «второго номера» совместно со следовым
-						кинологическим расчётом</a
-					>
-					<img class="route__arrow" src="./images/arrow.svg" alt="" />
-				</li>
-				<li class="route__element">
-					<a
-						class="route__link route__link_active"
-						href="./account.html"
-						>Видео</a
-					>
+				<li class="menu__list-item">
+					<a class="menu__link" href="./account.html">
+						<img class="menu__icon" src="./images/logo_profile.svg" alt="Профиль" />Профиль
+					</a>
 				</li>
 			</ul>
 		</nav>
-		<main class="content">
-			<section class="content-container">
-				<div class="content-container__header">
-					<h1 class="content-container__title">Видео</h1>
+	</header>
+	<nav class="route">
+		<ul class="route__list">
+			<li class="route__element">
+				<a class="route__link" href="">Курсы</a>
+				<img class="route__arrow" src="./images/arrow.svg" alt="" />
+			</li>
+			<li class="route__element">
+				<a class="route__link" href="./account.html">Кинологическое направление</a>
+				<img class="route__arrow" src="./images/arrow.svg" alt="" />
+			</li>
+			<li class="route__element">
+				<a class="route__link" href="./account.html">5. Работа «второго номера» совместно со следовым
+					кинологическим расчётом</a>
+				<img class="route__arrow" src="./images/arrow.svg" alt="" />
+			</li>
+			<li class="route__element">
+				<a class="route__link route__link_active" href="./account.html">Видео</a>
+			</li>
+		</ul>
+	</nav>
+	<main class="content">
+		<section class="content-container">
+			<div class="content-container__header">
+				<h1 class="content-container__title">Видео</h1>
+			</div>
+			<div class="media">
+				<video class="media__mediabox" src="#" poster="./images/video/ЛизаАлерт.jpg"></video>
+				<div class="media__player">
+					<button type="play" class="media__play-button">
+						<img class="media__play" src="./images/video/player/start.svg" alt="Кнопка Плей" />
+					</button>
+					<input class="media__timeline media__timeline_type_orange" type="range" />
+					<button type="volume" class="media__volume-button">
+						<img class="media__volume" src="./images/video/player/volume.svg" alt="Кнопка звука" />
+					</button>
+					<input class="media__sound media__sound_orange" type="range" />
+					<button type="fullscreen" class="media__fullscreen-button">
+						<img class="media__fullscreen" src="./images/video/player/fullscreen.svg"
+							alt="Кнопка раскрытия" />
+					</button>
 				</div>
-				<div class="media">
-					<video
-						class="media__mediabox"
-						src="#"
-						poster="./images/video/ЛизаАлерт.jpg"
-					></video>
-					<div class="media__player">
-						<button type="play" class="media__play-button">
-							<img
-								class="media__play"
-								src="./images/video/player/start.svg"
-								alt="Кнопка Плей"
-							/>
-						</button>
-						<input
-							class="media__timeline media__timeline_type_orange"
-							type="range"
-						/>
-						<button type="volume" class="media__volume-button">
-							<img
-								class="media__volume"
-								src="./images/video/player/volume.svg"
-								alt="Кнопка звука"
-							/>
-						</button>
-						<input
-							class="media__sound media__sound_orange"
-							type="range"
-						/>
-						<button
-							type="fullscreen"
-							class="media__fullscreen-button"
-						>
-							<img
-								class="media__fullscreen"
-								src="./images/video/player/fullscreen.svg"
-								alt="Кнопка раскрытия"
-							/>
-						</button>
-					</div>
-				</div>
-			</section>
-			<section class="buttons-container">
-				<button id="index_back" class="btn btn_size_m btn_type_default" type="button" title="Назад">
-					<img class="btn__icon" src="./images/buttons/Arrow-left.svg" alt="стрелка влево">
-					<p class="btn__text">Назад</p>
-				</button>
-				<button id="index_next" class="btn btn_size_m btn_type_active" type="button" title="Далее">
-					<p class="btn__text">Далее</p>
-					<img class="btn__icon" src="./images/buttons/Arrow-right-active.svg" alt="стрелка вправо">
-				</button>
-			</section>
-		</main>
-		<aside class="sidebar sidebar-lessons">
-			<div class="sidebar__container">
-						<div class="sidebar__head">
-							<h2 class="sidebar__title">Содержание</h2>
-						</div>
-						<ul class="sidebar__list">
-							<li class="sidebar__block">
-								<a class="sidebar__block-head">
-									<h3 class="sidebar__block-title">1. В каких случаях перспективно применение следовых кинологических расчётов</h3>
-								</a>
-								<ul class="sidebar__items">
-									<li class="sidebar__item">
-										<div class="sidebar__logo_active sidebar__logo_lesson"></div>
-										<p class="sidebar__content">Урок</p>
-									</li>
-								</ul>
-							</li>
-							<li class="sidebar__block">
-								<a class="sidebar__block-head">
-									<h3 class="sidebar__block-title">2. Необходимые обеспечительные меры для успешного применения следовых (розыскных собак).</h3>
-								</a>
-								<ul class="sidebar__items">
-									<li class="sidebar__item">
-										<div class="sidebar__logo_active sidebar__logo_lesson"></div>
-										<p class="sidebar__content">Урок</p>
-									</li>
-								</ul>
-							</li>
-							<li class="sidebar__block">
-								<a class="sidebar__block-head">
-									<h3 class="sidebar__block-title">3. Особенности привлечения следовых расчётов на ПСР и особенности взаимодействия.</h3>
-								</a>
-								<ul class="sidebar__items sidebar__items__closed">
-									<li class="sidebar__item">
-										<div class="sidebar__logo_active sidebar__logo_lesson"></div>
-										<p class="sidebar__content">Урок</p>
-									</li>
-									<li class="sidebar__item">
-										<div class="sidebar__logo_active sidebar__logo_webinar"></div>
-										<p class="sidebar__content">Вебинар</p>
-									</li>
-									<li class="sidebar__item">
-										<div class="sidebar__logo_active sidebar__logo_lesson"></div>
-										<p class="sidebar__content">Урок</p>
-									</li>
-									<li class="sidebar__item">
-										<div class="sidebar__logo_active sidebar__logo_video"></div>
-										<p class="sidebar__content">Видео</p>
-									</li>
-									<li class="sidebar__item">
-										<div class="sidebar__logo_active sidebar__logo_test"></div>
-										<p class="sidebar__content">Тест</p>
-									</li>
-								</ul>  
+			</div>
+		</section>
+		<section class="buttons-container">
+			<button id="index_back" class="btn btn_size_m btn_type_default" type="button" title="Назад">
+				<img class="btn__icon" src="./images/buttons/Arrow-left.svg" alt="Cтрелка влево">
+				<span class="btn__text">Назад</span>
+			</button>
+			<button id="index_next" class="btn btn_size_m btn_type_active" type="button" title="Далее">
+				<span class="btn__text">Далее</span>
+				<img class="btn__icon" src="./images/buttons/Arrow-right-active.svg" alt="Стрелка вправо">
+			</button>
+		</section>
+		</section>
+	</main>
+	<aside class="sidebar sidebar-lessons">
+		<div class="sidebar__container">
+			<div class="sidebar__head">
+				<h2 class="sidebar__title">Содержание</h2>
+			</div>
+			<ul class="sidebar__list">
+				<li class="sidebar__block">
+					<a class="sidebar__block-head">
+						<h3 class="sidebar__block-title">1. В каких случаях перспективно применение следовых
+							кинологических расчётов</h3>
+					</a>
+					<ul class="sidebar__items">
+						<li class="sidebar__item">
+							<div class="sidebar__logo_active sidebar__logo_lesson"></div>
+							<p class="sidebar__content">Урок</p>
 						</li>
-							<li class="sidebar__block">
-								<a class="sidebar__block-head">
-									<h3 class="sidebar__block-title">4. Корректная постановка задачи кинологу и особенности её исполнения</h3>
-								</a>
-								<ul class="sidebar__items sidebar__items__closed">
-									<li class="sidebar__item">
-										<div class="sidebar__logo_active sidebar__logo_webinar"></div>
-										<p class="sidebar__content">Вебинар</p>
-									</li>
-								</ul>
-							</li>
-							<li class="sidebar__block sidebar__block_active">
-								<a class="sidebar__block-head">
-									<h3 class="sidebar__block-title">5. Работа «второго номера» совместно со следовым кинологическим расчётом</h3>
-								</a>
-								<ul class="sidebar__items">
-									<li class="sidebar__item">
-										<div class="sidebar__logo_lesson sidebar__logo_active"></div>
-										<p class="sidebar__content">Дрессировка поисково-спасательных&nbsp;собак</p>
-									</li>
-									<li class="sidebar__item">
-										<div class="sidebar__logo_webinar sidebar__logo_active"></div>
-										<p class="sidebar__content">Вебинар</p>
-									</li>
-									<li class="sidebar__item">
-										<div class="sidebar__logo_lesson sidebar__logo_active"></div>
-										<p class="sidebar__content">Урок</p>
-									</li>
-									<li class="sidebar__item">
-										<div class="sidebar__logo_video-work sidebar__logo_video"></div>
-										<p class="sidebar__content sidebar__content_theme_orange">Видео</p>
-									</li>
-									<li class="sidebar__item">
-										<div class="sidebar__logo_test"></div>
-										<p class="sidebar__content">Тест</p>
-									</li>
-								</ul>
-							</li>
-							<li class="sidebar__block">
-								<a class="sidebar__block-head">
-									<h3 class="sidebar__block-title">6. Оценка качества и особенности анализа результата проделанной следовым кинологическим расчётом работы</h3>
-								</a>
-								<ul class="sidebar__items sidebar__items__closed">
-									<li class="sidebar__item">
-										<div class="sidebar__logo_lesson"></div>
-										<p class="sidebar__content">Урок</p>
-									</li>
-								</ul>
-							</li>
-							<li class="sidebar__block">
-								<a class="sidebar__block-head">
-									<h3 class="sidebar__block-title">7. Особенности и пределы использования РПРС ом полученной в ходе применения специальной следовой собаки информации в целях успешного разрешения поисков</h3>
-								</a>
-								<ul class="sidebar__items sidebar__items__closed">
-									<li class="sidebar__item">
-										<div class="sidebar__logo_lesson"></div>
-										<p class="sidebar__content">Урок</p>
-									</li>
-								</ul>
-							</li>
-						</ul>
-			</aside>
-			<script src="./scripts/script.js"></script>
-			<script src="./scripts/buttons.js"></script>
-	</body>
+					</ul>
+				</li>
+				<li class="sidebar__block">
+					<a class="sidebar__block-head">
+						<h3 class="sidebar__block-title">2. Необходимые обеспечительные меры для успешного применения
+							следовых (розыскных собак).</h3>
+					</a>
+					<ul class="sidebar__items">
+						<li class="sidebar__item">
+							<div class="sidebar__logo_active sidebar__logo_lesson"></div>
+							<p class="sidebar__content">Урок</p>
+						</li>
+					</ul>
+				</li>
+				<li class="sidebar__block">
+					<a class="sidebar__block-head">
+						<h3 class="sidebar__block-title">3. Особенности привлечения следовых расчётов на ПСР и
+							особенности взаимодействия.</h3>
+					</a>
+					<ul class="sidebar__items sidebar__items__closed">
+						<li class="sidebar__item">
+							<div class="sidebar__logo_active sidebar__logo_lesson"></div>
+							<p class="sidebar__content">Урок</p>
+						</li>
+						<li class="sidebar__item">
+							<div class="sidebar__logo_active sidebar__logo_webinar"></div>
+							<p class="sidebar__content">Вебинар</p>
+						</li>
+						<li class="sidebar__item">
+							<div class="sidebar__logo_active sidebar__logo_lesson"></div>
+							<p class="sidebar__content">Урок</p>
+						</li>
+						<li class="sidebar__item">
+							<div class="sidebar__logo_active sidebar__logo_video"></div>
+							<p class="sidebar__content">Видео</p>
+						</li>
+						<li class="sidebar__item">
+							<div class="sidebar__logo_active sidebar__logo_test"></div>
+							<p class="sidebar__content">Тест</p>
+						</li>
+					</ul>
+				</li>
+				<li class="sidebar__block">
+					<a class="sidebar__block-head">
+						<h3 class="sidebar__block-title">4. Корректная постановка задачи кинологу и особенности
+							её исполнения</h3>
+					</a>
+					<ul class="sidebar__items sidebar__items__closed">
+						<li class="sidebar__item">
+							<div class="sidebar__logo_active sidebar__logo_webinar"></div>
+							<p class="sidebar__content">Вебинар</p>
+						</li>
+					</ul>
+				</li>
+				<li class="sidebar__block sidebar__block_active">
+					<a class="sidebar__block-head">
+						<h3 class="sidebar__block-title">5. Работа «второго номера» совместно со следовым кинологическим
+							расчётом</h3>
+					</a>
+					<ul class="sidebar__items">
+						<li class="sidebar__item">
+							<div class="sidebar__logo_lesson sidebar__logo_active"></div>
+							<p class="sidebar__content">Дрессировка поисково-спасательных&nbsp;собак</p>
+						</li>
+						<li class="sidebar__item">
+							<div class="sidebar__logo_webinar sidebar__logo_active"></div>
+							<p class="sidebar__content">Вебинар</p>
+						</li>
+						<li class="sidebar__item">
+							<div class="sidebar__logo_lesson sidebar__logo_active"></div>
+							<p class="sidebar__content">Урок</p>
+						</li>
+						<li class="sidebar__item">
+							<div class="sidebar__logo_video-work sidebar__logo_video"></div>
+							<p class="sidebar__content sidebar__content_theme_orange">Видео</p>
+						</li>
+						<li class="sidebar__item">
+							<div class="sidebar__logo_test"></div>
+							<p class="sidebar__content">Тест</p>
+						</li>
+					</ul>
+				</li>
+				<li class="sidebar__block">
+					<a class="sidebar__block-head">
+						<h3 class="sidebar__block-title">6. Оценка качества и особенности анализа результата проделанной
+							следовым кинологическим расчётом работы</h3>
+					</a>
+					<ul class="sidebar__items sidebar__items__closed">
+						<li class="sidebar__item">
+							<div class="sidebar__logo_lesson"></div>
+							<p class="sidebar__content">Урок</p>
+						</li>
+					</ul>
+				</li>
+				<li class="sidebar__block">
+					<a class="sidebar__block-head">
+						<h3 class="sidebar__block-title">7. Особенности и пределы использования РПРС ом полученной
+							в ходе применения специальной следовой собаки информации в целях успешного разрешения
+							поисков</h3>
+					</a>
+					<ul class="sidebar__items sidebar__items__closed">
+						<li class="sidebar__item">
+							<div class="sidebar__logo_lesson"></div>
+							<p class="sidebar__content">Урок</p>
+						</li>
+					</ul>
+				</li>
+			</ul>
+	</aside>
+	<script src="./scripts/script.js"></script>
+	<script src="./scripts/buttons.js"></script>
+</body>
+
 </html>
