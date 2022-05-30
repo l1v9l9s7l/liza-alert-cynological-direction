@@ -4,8 +4,3 @@
 	padding-left: 38px;
 	list-style: disc;
 }
-
-
-.disclaimer-info__text_list:nth-child(n) {
-	margin-bottom: 5px;
-}

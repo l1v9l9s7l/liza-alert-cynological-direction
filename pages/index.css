@@ -27,12 +27,13 @@
 @import url(../blocks/route/route.css);
 @import url(../blocks/route/__list/route__list.css);
 @import url(../blocks/route/__link/route__link.css);
-@import url(../blocks/route/__link/_type/route__link_active.css);
+@import url(../blocks/route/__link/_active/route__link_active.css);
 @import url(../blocks/route/__element/route__element.css);
 @import url(../blocks/route/__arrow/route__arrow.css);
 /* sidebar */
 @import url(../blocks/sidebar/sidebar.css);
 @import url(../blocks/sidebar-lessons/sidebar-lessons.css);
+@import url(../blocks/sidebar/__logo/sidebar__logo.css);
 @import url(../blocks/sidebar/__block-title/sidebar__block-title.css);
 @import url(../blocks/sidebar/__block/sidebar__block.css);
 @import url(../blocks/sidebar/__container/sidebar__container.css);
@@ -63,7 +64,7 @@
 @import url(../blocks/media/__volume-button/media__volume-button.css);
 @import url(../blocks/media/__sound/media__sound.css);
 @import url(../blocks/media/__sound/_type/media__sound_type_orange.css);
-@import url(../blocks/media/__fullscreen/media__fullscreen-button.css);
+@import url(../blocks/media/__fullscreen-button/media__fullscreen-button.css);
 /* buttons */
 @import url(../blocks/buttons-container/buttons-container.css);
 @import url(../blocks/btn/btn.css);
@@ -104,10 +105,10 @@
 @import url('../blocks/checkbox/_result/checkbox_result_success-ignore.css');
 /*radio*/
 @import url('../blocks/radio/radio.css');
-@import url('../blocks/radio/__result/radio_result_failed-ignore.css');
-@import url('../blocks/radio/__result/radio_result_failed.css');
-@import url('../blocks/radio/__result/radio_result_success-ignore.css');
-@import url('../blocks/radio/__result/radio_result_success.css');
+@import url('../blocks/radio/_result/radio_result_failed-ignore.css');
+@import url('../blocks/radio/_result/radio_result_failed.css');
+@import url('../blocks/radio/_result/radio_result_success-ignore.css');
+@import url('../blocks/radio/_result/radio_result_success.css');
 /* test-result */
 @import url('../blocks/test-result/test-result.css');
 @import url('../blocks/test-result/__bad-percent/test-result__bad-percent.css');

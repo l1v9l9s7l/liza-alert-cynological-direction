@@ -1,9 +1,3 @@
 .sidebar__logo_lesson {
     background-image: url(../../../../images/video/logo-lesson.svg);
-    margin-right: 10px;
-    min-width: 20px;
-    height: 20px;
-    background-repeat: no-repeat;
-    background-position: center;
-    align-self: flex-start;
   }
