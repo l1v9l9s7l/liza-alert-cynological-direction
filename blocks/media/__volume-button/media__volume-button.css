@@ -1,9 +1,15 @@
 .media__volume-button {
-    background-color: transparent;
-    border: none;
+	background-color: transparent;
+	border: none;
 	margin: 0;
-    padding: 0;
-    width: 20px;
-    height: 20px;
-    align-self: baseline;
+	padding: 0;
+	width: 20px;
+	height: 20px;
+	align-self: baseline;
+}
+
+.media__volume-button:hover {
+	opacity: .8;
+	cursor: pointer;
+	transition: .4s;
 }

@@ -5,5 +5,11 @@
     padding: 0;
     width: 20px;
     height: 20px;
-    align-self: baseline;
+    /* align-self: baseline; */
+}
+
+.media__fullscreen-button:hover {
+    opacity: .8;
+    cursor: pointer;
+    transition: .4s;
 }

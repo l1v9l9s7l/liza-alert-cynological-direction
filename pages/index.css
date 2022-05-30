@@ -63,7 +63,7 @@
 @import url(../blocks/media/__volume-button/media__volume-button.css);
 @import url(../blocks/media/__sound/media__sound.css);
 @import url(../blocks/media/__sound/_type/media__sound_type_orange.css);
-@import url(../blocks/media/__fullscreen/media__fullscreen-button.css);
+@import url(../blocks/media/__fullscreen-button/media__fullscreen-button.css);
 /* buttons */
 @import url(../blocks/buttons-container/buttons-container.css);
 @import url(../blocks/btn/btn.css);
