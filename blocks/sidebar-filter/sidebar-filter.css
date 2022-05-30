@@ -4,9 +4,8 @@
 	height: max-content;
     min-width: 295px;
 }
-
 @media (max-width: 1024px) {
-	.sidebar-filter{
+	.sidebar-filter {
 		grid-template-columns: repeat(2, auto);
 		grid-template-rows: minmax(min-content, 320px);
 		padding-top: 12px;

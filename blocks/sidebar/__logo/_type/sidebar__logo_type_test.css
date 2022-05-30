@@ -1,5 +1,5 @@
-.sidebar__logo_active {
-    background-image: url(../../../../images/video/logo-active.svg);
+.sidebar__logo_type_test {
+    background-image: url(../../../../images/video/logo-test.svg);
     margin-right: 10px;
     min-width: 20px;
     height: 20px;

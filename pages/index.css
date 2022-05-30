@@ -39,18 +39,17 @@
 @import url(../blocks/sidebar/__item/sidebar__item.css);
 @import url(../blocks/sidebar/__items/sidebar__items.css);
 @import url(../blocks/sidebar/__list/sidebar__list.css);
-@import url(../blocks/sidebar/__head/sidebar__head.css);
 @import url(../blocks/sidebar/__title/sidebar__title.css);
 @import url(../blocks/sidebar/__items/_open/sidebar__items_open.css);
-@import url(../blocks/sidebar/__logo/_lesson/sidebar__logo_lesson.css);
-@import url(../blocks/sidebar/__logo/_test/sidebar__logo_test.css);
-@import url(../blocks/sidebar/__logo/_video/sidebar__logo_video.css);
-@import url(../blocks/sidebar/__logo/_webinar/sidebar__logo_webinar.css);
+@import url(../blocks/sidebar/__logo/_type/sidebar__logo_type_lesson.css);
+@import url(../blocks/sidebar/__logo/_type/sidebar__logo_type_test.css);
+@import url(../blocks/sidebar/__logo/_type/sidebar__logo_type_video.css);
+@import url(../blocks/sidebar/__logo/_type/sidebar__logo_type_webinar.css);
 @import url(../blocks/sidebar/__block/_active/sidebar__block_active.css);
 @import url(../blocks/sidebar/__content/sidebar__content.css);
-@import url(../blocks/sidebar/__logo/_active/sidebar__logo_active.css);
-@import url(../blocks/sidebar/__logo/_test-work/sidebar__logo_test-work.css);
-@import url(../blocks/sidebar/__logo/_video-work/sidebar__logo-video-work.css);
+@import url(../blocks/sidebar/__logo/_type/sidebar__logo_type_active.css);
+@import url(../blocks/sidebar/__logo/_type/sidebar__logo_type_test-orange.css);
+@import url(../blocks/sidebar/__logo/_type/sidebar__logo_type_video-orange.css);
 @import url(../blocks/sidebar/__block-head/sidebar__block-head.css);
 @import url(../blocks/sidebar/__content/_theme/sidebar__content_theme_orange.css);
 /*media*/
