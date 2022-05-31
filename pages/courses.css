@@ -41,7 +41,7 @@
 @import url(../blocks/sidebar/__items/_open/sidebar__items_open.css);
 @import url(../blocks/sidebar/__block/_active/sidebar__block_active.css);
 @import url(../blocks/sidebar-filter/sidebar-filter.css);
-
+@import url(../blocks/sidebar-filter/__list/sidebar-filter__list.css);
 
 
 @import url(../blocks/articles/articles.css);
