@@ -12,7 +12,7 @@ const createCard = card => {
 	const cardButtonType = cardTemplateElement.querySelector(".card-list__button");
 	cardHeading.textContent = card.name;
 	if (cardHeading.textContent = "Кинологическое направление") {
-		cardButtonType.setAttribute("href", "../index.html");
+		cardButtonType.setAttribute("href", "../liza-alert-cynological-direction/index.html");
 	}
 	cardImage.src = card.link;
 	cardImage.alt = card.name;
