@@ -7,3 +7,9 @@
     background-color: transparent;
     align-self: baseline;
 }
+
+.media__play-button:hover {
+    opacity: .8;
+    cursor: pointer;
+    transition: .4s;
+}

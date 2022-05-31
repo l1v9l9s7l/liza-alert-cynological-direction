@@ -7,3 +7,9 @@
     height: 20px;
     align-self: baseline;
 }
+
+.media__fullscreen-button:hover {
+    opacity: .8;
+    cursor: pointer;
+    transition: .4s;
+}
